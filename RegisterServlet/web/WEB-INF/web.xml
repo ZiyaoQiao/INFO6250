@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>Part2</servlet-name>
+        <servlet-class>Part2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Part2</servlet-name>
+        <url-pattern>/Part2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Part4</servlet-name>
+        <servlet-class>Part4</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Part4</servlet-name>
+        <url-pattern>/Part4</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Part5</servlet-name>
+        <servlet-class>Part5</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Part5</servlet-name>
+        <url-pattern>/Part5</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Part6</servlet-name>
+        <servlet-class>Part6</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Part6</servlet-name>
+        <url-pattern>/Part6</url-pattern>
+    </servlet-mapping>
+
+
+    <welcome-file-list>
+        <welcome-file>HW4-Part4.html</welcome-file>
+    </welcome-file-list>
+</web-app>

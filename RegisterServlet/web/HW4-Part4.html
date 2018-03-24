@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            font-size:2em;
+        }
+        .small{
+            font-size:0.6em;
+        }
+        .inputLine{
+            border:0ch;
+            border-bottom:black solid 1px;
+            background-color:rgb(230, 250, 255)
+        }
+    </style>
+    <title>Petition Form</title> 
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="font-family:Arial, Helvetica, sans-serif; font-size:0.75em">
+            <img class="col-xs-7" src="snipaste_20180117_185709.png">
+                
+            </img>
+            <div class="col-xs-3">
+                <br>
+                <b>Graduate School of Engineering</b><br>
+                <b>130 Snell Enginerring Center</b><br>
+                <po>Northeastern Unicersity</po><br>
+                <po>360 Huntington Avenue</po><br>
+                <po>Boston, MA, 02115-5000</po>
+            </div>
+            <div class="col-xs-2" style="text-align:right">
+                <br>
+                <p>Phone: 619.373.2711</p>
+                <p>Fax: 617.373.2571</p>
+                <p>Web: www.coe.neu.edu/gse</p>
+            </div>
+        </div>
+        <div class="row" style="text-align: center">
+            <h2 style=" font-weight:bold">PETITION FORM</h2>
+        </div>
+        <p style="text-align:justify;border-bottom:black solid 2px;border-top:black solid 2px;">
+            Follow the instuctions on the next page. Use <b>fillable pdf</b> or PRINT CLEARLY to ensure your writing is legible. You must provide <b style="text-decoration: :underline">all</b> required supporting documents before a final decision is made on your petition.
+        </p>
+        <form method="GET" action="Part4" autocomplete="on">
+            <div class="row">
+                <p class="col-xs-1">
+                    NU ID</p>
+                <input class="col-xs-3 inputLine" name="NUID">
+                <p class="col-xs-3">
+                    Current Program/Concentration </p>
+                <div class="col-xs-5"><input class="inputLine" style="width:100%" name="CurrentProgram"></div>
+            </div>
+            <div class="row">
+                <p class="col-xs-1">Name</p>
+                <div class="col-xs-4">
+                    <input class="inputLine" style="margin-left:-4%;width:104%;" name="LastName">
+                    <p style="margin-left:-4%;font-size:0.6em">Last or Family Name</p>
+                </div>
+                <div class="col-xs-4">
+                    <input  class="inputLine" style="width:100%;" name="FirstName">
+                    <p style="font-size:0.6em">First or Given Name</p>
+                </div>
+                <div class="col-xs-3">
+                    <input class="inputLine" style="width:100%;" name="MiddleName">
+                    <p style="font-size:0.6em">Middle Name</p>
+                </div>
+            </div>
+            <div class="row">
+                <p class="col-xs-2">Local Address</p>
+                <div class="col-xs-4">
+                    <input  style="margin-left:-15%; width:100%" class="inputLine" name="Street">
+                    <p style="font-size:0.6em; margin-left:-15%">Street/Street #</p>
+                </div>
+                <div class="col-xs-2">
+                    <input  class="inputLine" style="margin-left:-25%; width:115%" name="City">
+                    <p style="font-size:0.6em; margin-left:-25%">City</p>
+                </div>
+                <div class="col-xs-2">
+                    <select  class="inputLine" style="width:100%;" name="State">
+                            <option value="" selected="selected">Select a State</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District Of Columbia</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                    </select>
+                    <p class="small">State</p>
+                </div>
+                <div class="col-xs-2">
+                    <input  class="inputLine" style="width:100%;" name="ZipCode">
+                    <p class="small">Zip Code</p>
+                </div>
+            </div>
+            <div class="row">
+                <p class="col-xs-1">Phone</p>
+                <input class="col-xs-4 inputLine" type="tel" name="Phone">
+                <p class="col-xs-2">Husky Email</p>
+                <input class="col-xs-5 inputLine" style="margin-left:-5%" type="email" name="Email">
+            </div>
+            <div class="row">
+                <p class="col-xs-3">Current Degree Level:</p>
+                <div class="col-xs-6">
+                    <input type="radio" name="CDL" value="MS"> MS
+                    <input type="radio" name="CDL" value="PhD"> PhD
+                    <input type="radio" name="CDL" value="CertificateOnly"> Certificate Only
+                    <input type="radio" name="CDL" value="SpecialStudent"> Special Student
+                </div>
+                <div class="col-xs-3">
+                    <input type="radio" name="IorD" value="International"> International
+                    <input type="radio" name="IorD" value="Domestic"> Domestic
+                </div>
+            </div>
+            <p class="col-xs-12" style="border-bottom:black solid 2px"></p>
+            <div class="row" style="text-align: left">
+                <p class="col-xs-2">check all that apply:</p>
+                <div class="col-xs-4">
+                    <input type="checkbox" name="allApply" value="">Elective outside core curriculum
+                </div>
+                <div class="col-xs-3" >
+                    <input type="checkbox" name="allApply" value="">Core course waive
+                </div>
+                <div class="col-xs-3">
+                    <input type="checkbox" name="allApply" value="">Change in status
+                </div>
+                <div class="col-xs-4">
+                    <input type="checkbox" name="allApply" value="">Course repeat/official substitution
+                </div>
+                <div class="col-xs-6">
+                    <input type="checkbox" name="allApply" value="">Extension of time limit to program completion
+                </div>
+                <div class="col-xs-2"></div>
+                <div class="col-xs-2">
+                    <input type="checkbox" name="allApply" value="">Other (specify):
+                </div>
+                <div class="col-xs-7">
+                    <input class="inputLine" style="width:100%" name="Other">
+                </div>
+            </div>
+            <div class="row">
+                <br>
+                <p class="col-xs-12">1. For each course concerned, please provide the information below:</p>
+                <table class="col-xs-12" border="1" style="margin-left:1.5%;width:97%">
+                    <tr style="background-color:rgb(223, 223, 223)">
+                        <th style="width:40%">Course Name</th>
+                        <th>Term</th>
+                        <th>CRN #</th>
+                        <th>Course #</th>
+                        <th># Credits</th>
+                    </tr>
+                    <tr>
+                        <td><input class="inputLine" style="width:100%" name="CourseName"></td>
+                        <td><input class="inputLine" style="width:100%" name="Term"></td>
+                        <td><input class="inputLine" style="width:100%" name="CRN"></td>
+                        <td><input class="inputLine" style="width:100%" name="Course"></td>
+                        <td><input class="inputLine" style="width:100%" name="Credits"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="inputLine" style="width:100%" name="CourseName"></td>
+                        <td><input class="inputLine" style="width:100%" name="Term"></td>
+                        <td><input class="inputLine" style="width:100%" name="CRN"></td>
+                        <td><input class="inputLine" style="width:100%" name="Course"></td>
+                        <td><input class="inputLine" style="width:100%" name="Credits"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="row">
+                <br/>
+                <p class="col-xs-7">2. What are you petitioning? Please explain(attach separate sheet if necessary): </p>
+            </div>
+            <textarea class="col-xs-12 inputLine" rows="4" name="Petition"></textarea>
+            <div class="row"><br></div>
+            <div class="row">
+                <br>
+                <p class="col-xs-2">3. Student signature: </p>
+                <div class="col-xs-7">
+                    <input class="inputLine" style="width:100%" name="StudentSignature">
+                </div>
+                <div class="col-xs-3">
+                        <input class="inputLine" type="date" style="width:100%" name="StudentSignatureDate">
+                </div>
+            </div>
+            <h3 style="font-weight:bold; border-bottom:black solid 3px">SUBMIT PETITION AND ANY SUPPORTING DOCUMENTS TO YOUR PROGRAM ADVISOR</h3>
+            <div class="row">
+                <p class="col-xs-3" style="font-weight: bold; font-style:italic; font-size:1.2em">Program Advisor</p>
+                <p class="col-xs-2">Recommedation: </p>
+                <div class="col-xs-3"><input type="radio" name="Recommendation" value="Approves">Approved</div>
+                <div class="col-xs-3"><input type="radio" name="Recommendation" value="Denied">Denied</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <input class="inputLine" style="width:100%" name="AdvisorSignature">
+                    <p class="small">Signature</p>
+                </div>
+                <div class="col-xs-6">
+                    <input class="inputLine" style="width:100%" name="AdvisorPrintName">
+                    <p class="small">Print Name</p>
+                </div>
+                <div class="col-xs-10">
+                    <input class="inputLine" style="width:100%" name="AdvisorComments">
+                    <p class="small">Advisor's Comments and/or instuctions</p>
+                </div>
+                <div class="col-xs-2">
+                    <input class="inputLine" style="width:100%" type="date" name="AdvisorSignatureDate">
+                </div>
+                <div class="col-xs-10">
+                    <input class="inputLine" style="width:100%" name="CommitteeChair">
+                    <p class="small">ECE Graduate Committee Chair (ECE students only)</p>
+                </div>
+                <div class="col-xs-2">
+                    <input class="inputLine" style="width:100%" type="date" name="CommitteeDate">
+                </div>
+            </div>
+            <div class="row">
+                    <p class="col-xs-3" style="font-weight: bold; font-style:italic; font-size:1.2em">Graduate School</p>
+                    <div class="col-xs-2"><input type="radio" name="Status" value="Approved">Approved</div>
+                    <div class="col-xs-2"><input type="radio" name="Status" value="Denied">Denied</div>
+                    <div class="col-xs-3"><input type="radio" name="Status" value="No Action">No Action</div>
+                    <div class="col-xs-4"><input type="radio" name="Status" value="Returned">Returned for additional information</div>
+                    <div class="col-xs-4"><input type="radio" name="Status" value="ASC Report">ASC Report field</div>
+            </div>
+            <div class="row">
+                <p class="col-xs-3">Comments to student:</p>
+                <div class="col-xs-9">
+                    <input class="inputLine" style="width:100%" name="CommentsToStudent">
+                </div>
+            </div>
+            <div class="row">
+                <p class="col-xs-3">Graduate school authorization</p>
+                <div class="col-xs-3">
+                    <input class="inputLine" style="width:100%" name="Authorization">
+                </div>
+                <input class="col-xs-2 inputLine" type="date" name="AuthorizedDate">
+                <p class="col-xs-2">Effective Term</p>
+                <div class="col-xs-2">
+                    <input class="inputLine" style="margin-left:-20%;width:120%" name="EffectiveTerm">
+                </div>
+            </div>
+            <br>
+            <br>
+            <p class="col-xs-4"></p>
+            <input class="col-xs-4" type="submit" />
+            <br>
+            <br>
+            <br>
+        </form>
+        <br>
+        
+    </div>
+</body>
+</html>

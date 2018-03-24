@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
+
+    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <prop key="index.html">indexController</prop>
+                <prop key="selection.html">redirectController</prop>
+                <prop key="addMovie.html">addMovieController</prop>
+                <prop key="searchMovie.html">searchMovieController</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver" p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" />
+
+
+    <bean name="indexController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="MovieStore" />
+    <bean name="addMovieController" class="controller.addMovieController">
+        <property name="commandName" value="add"/>
+        <property name="commandClass" value="POJO.Movie"/>
+    </bean>
+    <bean name="searchMovieController" class="controller.searchMovieController"/>
+    <bean name="redirectController" class="controller.redirectController" />
+
+    <bean name="MovieDao" class="DAO.MovieDao" scope="application"/>
+
+</beans>

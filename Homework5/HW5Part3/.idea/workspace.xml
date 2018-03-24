@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9041e630-7636-48cd-ac14-919a1ca73965" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HW5Part3.iml" afterPath="$PROJECT_DIR$/HW5Part3.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/../HW5Part4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HW5Part4/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,13 +38,16 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="HW5Part3" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="MovieDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1247">
-              <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="172">
+              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +87,7 @@
       <file leaf-file-name="addMovieController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
+            <state relative-caret-position="2193">
               <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
               <folding>
                 <element signature="e#772#773#0" expanded="true" />
@@ -96,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="430">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -119,9 +120,11 @@
       <file leaf-file-name="MainDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MainDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="43">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Movie.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Movie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1720">
-              <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state relative-caret-position="860">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -245,10 +248,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="595" />
-    <option name="y" value="-3136" />
-    <option name="width" value="4441" />
-    <option name="height" value="3162" />
+    <option name="x" value="-14" />
+    <option name="y" value="-14" />
+    <option name="width" value="3868" />
+    <option name="height" value="2098" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -268,8 +271,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,8 +363,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -615,16 +618,19 @@
       <workItem from="1521843047938" duration="5969000" />
       <workItem from="1521849070043" duration="36000" />
       <workItem from="1521849417626" duration="158000" />
-      <workItem from="1521850487601" duration="699000" />
+      <workItem from="1521850487601" duration="944000" />
+      <workItem from="1521912883178" duration="22000" />
+      <workItem from="1521915093054" duration="35000" />
+      <workItem from="1521915238186" duration="31000" />
+      <workItem from="1521915437750" duration="181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43070000" />
+    <option name="totallyTimeSpent" value="43584000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="-3254" width="5788" height="3178" extended-state="6" />
-    <editor active="true" />
+    <frame x="-14" y="-14" width="3868" height="2098" extended-state="6" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -633,7 +639,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19381626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19358289" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -648,7 +654,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35903084" sideWeight="0.3394919" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15777385" sideWeight="0.6605081" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1657754" sideWeight="0.6605081" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -996,24 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MainDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1247">
-          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4687">
@@ -1057,14 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Movie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1720">
-          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/redirectController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
@@ -1079,7 +1059,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
+        <state relative-caret-position="2193">
           <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
           <folding>
             <element signature="e#772#773#0" expanded="true" />
@@ -1096,10 +1076,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MainDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="430">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding />
         </state>
       </provider>

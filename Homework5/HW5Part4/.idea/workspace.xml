@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a9ff1e4-5f91-4eac-8164-968c0349b795" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../HW5Part3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HW5Part3/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/HW5Part3.iml" afterPath="$PROJECT_DIR$/../HW5Part3/HW5Part3.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,9 +43,11 @@
       <file leaf-file-name="Books.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Books.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1548">
-              <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="542">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -213,10 +215,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="595" />
-    <option name="y" value="-3136" />
-    <option name="width" value="4441" />
-    <option name="height" value="3162" />
+    <option name="width" value="3872" />
+    <option name="height" value="2192" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,6 +234,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,10 +315,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -532,14 +532,18 @@
       <workItem from="1521849629250" duration="54000" />
       <workItem from="1521849960985" duration="30000" />
       <workItem from="1521850888156" duration="13000" />
+      <workItem from="1521915129604" duration="34000" />
+      <workItem from="1521915170598" duration="23000" />
+      <workItem from="1521915218549" duration="17000" />
+      <workItem from="1521915621743" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13071000" />
+    <option name="totallyTimeSpent" value="13155000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="595" y="-3136" width="4441" height="3162" extended-state="0" />
+    <frame x="0" y="0" width="3872" height="2192" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -549,7 +553,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17087874" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17067307" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -563,8 +567,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19035473" sideWeight="0.5056899" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19035473" sideWeight="0.4943101" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20005342" sideWeight="0.5141151" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20005342" sideWeight="0.4858849" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -972,9 +976,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Books.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1548">
-          <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="542">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

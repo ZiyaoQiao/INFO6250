@@ -6,50 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9ff1e4-5f91-4eac-8164-968c0349b795" name="Default" comment="HW5 hibernate part update">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/Validator/movieValidator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/HW5Part4_war.xml" />
-      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Homework4/HW4/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/.idea/artifacts/HW4_war.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/.idea/artifacts/HW4_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/HW5Part4_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HW5Part3/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/DAO/MovieDao.java" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/DAO/MovieDao.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/POJO/Movie.java" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/POJO/Movie.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/controller/addMovieController.java" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/controller/addMovieController.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/webapp/WEB-INF/jsp/AddMovie.jsp" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/webapp/WEB-INF/jsp/AddMovie.jsp" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/POJO/Movie.hbm.xml" afterPath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/POJO/Movie.hbm.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/DAO/MovieDao.java" afterPath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/DAO/MovieDao.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/POJO/Movie.hbm.xml" afterPath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/POJO/Movie.hbm.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/POJO/Movie.java" afterPath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/POJO/Movie.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/controller/addMovieController.java" afterPath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/controller/addMovieController.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/jsp/AddMovie.jsp" afterPath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/jsp/AddMovie.jsp" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/POJO/Movie.hbm.xml" afterPath="$PROJECT_DIR$/../HW5Part3/target/classes/POJO/Movie.hbm.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MovieDao.java" afterPath="$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MovieDao.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/POJO/Movie.hbm.xml" afterPath="$PROJECT_DIR$/../HW5Part3/target/classes/java/POJO/Movie.hbm.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/POJO/Movie.java" afterPath="$PROJECT_DIR$/../HW5Part3/target/classes/java/POJO/Movie.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/controller/addMovieController.java" afterPath="$PROJECT_DIR$/../HW5Part3/target/classes/java/controller/addMovieController.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_12.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_3_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_3_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_3_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_0_3_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_3_RELEASE.xml" afterPath="" />
+    <list default="true" id="3a9ff1e4-5f91-4eac-8164-968c0349b795" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/HW5Part4.iml" afterPath="$PROJECT_DIR$/HW5Part4.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/java/Controller/BookController.java" afterPath="$PROJECT_DIR$/src/main/resources/java/Controller/BookController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/java/POJO/Books.hbm.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/java/POJO/Books.java" afterPath="$PROJECT_DIR$/src/main/resources/java/POJO/Books.java" />
       <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" afterPath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" />
       <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/classes/java/DAO/BookDAO.java" afterPath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/classes/java/DAO/BookDAO.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/java/Controller/BookController.java" afterPath="$PROJECT_DIR$/target/classes/java/Controller/BookController.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/java/DAO/BookDAO.java" afterPath="$PROJECT_DIR$/target/classes/java/DAO/BookDAO.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/POJO/Book.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -111,11 +73,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Books.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Books.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Books.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
               <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovieDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MovieDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -245,8 +217,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="656" />
-    <option name="y" value="-2738" />
+    <option name="x" value="886" />
+    <option name="y" value="-3089" />
     <option name="width" value="3864" />
     <option name="height" value="2082" />
   </component>
@@ -570,15 +542,24 @@
       <workItem from="1521915170598" duration="23000" />
       <workItem from="1521915218549" duration="17000" />
       <workItem from="1521915621743" duration="10000" />
-      <workItem from="1521939241199" duration="3964000" />
+      <workItem from="1521939241199" duration="3989000" />
     </task>
+    <task id="LOCAL-00001" summary="HW5 hibernate part update">
+      <created>1521944290315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521944290315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17119000" />
+    <option name="totallyTimeSpent" value="17144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-3254" width="5788" height="3178" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -593,7 +574,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39992929" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -602,8 +583,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13409895" sideWeight="0.516095" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13409895" sideWeight="0.48390502" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13409895" sideWeight="0.5155587" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13409895" sideWeight="0.4844413" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -632,13 +613,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Book.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/BookDAO.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1016,6 +990,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MovieDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding />
         </state>
       </provider>

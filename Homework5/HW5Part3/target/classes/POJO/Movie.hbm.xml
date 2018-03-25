@@ -4,7 +4,7 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="POJO.Movie" table="movies" schema="moviedb">
+    <class name="POJO.Movie" table="movie" schema="moviedb">
         <id name="title">
             <column name="title" sql-type="varchar(80)" length="80"/>
         </id>

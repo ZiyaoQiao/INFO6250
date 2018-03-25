@@ -6,7 +6,6 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.util.Objects;
 
-@Entity
 public class Movie {
     private String title;
     private String actor;
@@ -14,8 +13,6 @@ public class Movie {
     private String genre;
     private Integer year;
 
-    @Id
-    @Column(name = "title", nullable = false, length = 80)
     public String getTitle() {
         return title;
     }
@@ -24,8 +21,6 @@ public class Movie {
         this.title = title;
     }
 
-    @Basic
-    @Column(name = "actor", nullable = true, length = 30)
     public String getActor() {
         return actor;
     }
@@ -34,8 +29,6 @@ public class Movie {
         this.actor = actor;
     }
 
-    @Basic
-    @Column(name = "actress", nullable = true, length = 30)
     public String getActress() {
         return actress;
     }
@@ -44,8 +37,6 @@ public class Movie {
         this.actress = actress;
     }
 
-    @Basic
-    @Column(name = "genre", nullable = true, length = 20)
     public String getGenre() {
         return genre;
     }
@@ -54,8 +45,6 @@ public class Movie {
         this.genre = genre;
     }
 
-    @Basic
-    @Column(name = "year", nullable = true)
     public Integer getYear() {
         return year;
     }

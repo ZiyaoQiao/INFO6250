@@ -6,11 +6,6 @@ import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 import org.springframework.stereotype.Component;
 
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
 import java.util.List;
 
 @Component("MovieDao")
@@ -42,6 +37,7 @@ public class MovieDao {
         String qy = "FROM POJO.Movie as movie WHERE movie."+value+"="+keyword;
         Query query = session.createQuery(qy);
         List<Movie> list = query.list();
+        session.close();
         return list;
     }
 }

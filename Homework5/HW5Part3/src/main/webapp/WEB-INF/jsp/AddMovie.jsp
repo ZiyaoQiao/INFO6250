@@ -13,7 +13,7 @@
 </head>
 <body>
 <h1>Please enter the details below:</h1>
-<form action="addMovie.html">
+<form action="addMovie.html" commandName="movie">
     <div>
         Movie Title:
         <input name="title" type="text" required="required"/>

@@ -1,5 +1,7 @@
 package POJO;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -7,6 +9,7 @@ import javax.persistence.Id;
 import java.util.Objects;
 
 @Entity
+@Component("Books")
 public class Books {
     private String isbn;
     private String title;

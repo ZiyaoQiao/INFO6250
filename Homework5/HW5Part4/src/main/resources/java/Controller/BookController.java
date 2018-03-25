@@ -3,6 +3,8 @@ package Controller;
 import DAO.BookDAO;
 import POJO.Books;
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Controller;
@@ -23,6 +25,10 @@ public class BookController implements ApplicationContextAware {
         return new ModelAndView("index");
     }
 
+    @Autowired
+    @Qualifier("BookDAO")
+    BookDAO bookDAO;
+
     @RequestMapping("addBookPage.html")
     public ModelAndView responseAddBookPage(HttpServletRequest request, HttpServletResponse response) {
         int num = Integer.parseInt(request.getParameter("num"));
@@ -40,9 +46,9 @@ public class BookController implements ApplicationContextAware {
     ) throws SQLException {
         if(isValid(isbnList) && isValid(titleList) && isValid(authorsList)) {
             ArrayList<Books> bookArrayList = new ArrayList<>();
-            BookDAO bookDAO = (BookDAO) ctx.getBean("BookDAO");
+            //BookDAO bookDAO = (BookDAO) ctx.getBean("BookDAO");
             for (int i = 0; i < isbnList.length; i++) {
-                Books book = (Books) ctx.getBean("Book");
+                Books book = (Books) ctx.getBean("Books");
                 book.setPrice(priceList[i]);
                 book.setTitle(titleList[i]);
                 book.setIsbn(isbnList[i]);

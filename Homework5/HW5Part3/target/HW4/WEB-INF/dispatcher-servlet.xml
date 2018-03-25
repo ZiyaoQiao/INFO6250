@@ -9,6 +9,7 @@
     <mvc:annotation-driven/>
     <context:component-scan base-package="DAO"/>
     <context:component-scan base-package="POJO"/>
+    <context:component-scan base-package="Validator"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>

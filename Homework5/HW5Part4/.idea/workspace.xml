@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a9ff1e4-5f91-4eac-8164-968c0349b795" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HW5Part3/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" afterPath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" />
-      <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/classes/java/DAO/BookDAO.java" afterPath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/classes/java/DAO/BookDAO.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/Controller/BookController.java" afterPath="$PROJECT_DIR$/target/classes/java/Controller/BookController.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/DAO/BookDAO.java" afterPath="$PROJECT_DIR$/target/classes/java/DAO/BookDAO.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,8 +83,8 @@
       <file leaf-file-name="MovieDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MovieDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="1591">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -542,7 +539,7 @@
       <workItem from="1521915170598" duration="23000" />
       <workItem from="1521915218549" duration="17000" />
       <workItem from="1521915621743" duration="10000" />
-      <workItem from="1521939241199" duration="4004000" />
+      <workItem from="1521939241199" duration="4031000" />
     </task>
     <task id="LOCAL-00001" summary="HW5 hibernate part update">
       <created>1521944290315</created>
@@ -558,11 +555,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521944307515</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW5 hibernate part update">
+      <created>1521944321542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521944321542</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17159000" />
+    <option name="totallyTimeSpent" value="17186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-3254" width="5788" height="3178" extended-state="6" />
@@ -1003,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MovieDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="1591">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -7,49 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9041e630-7636-48cd-ac14-919a1ca73965" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/java/Validator/movieValidator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HW5Part4/.idea/artifacts/HW5Part4_war.xml" />
-      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Homework4/HW4/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/HW4_war.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/HW4_war_exploded.xml" afterPath="$PROJECT_DIR$/../HW5Part4/.idea/artifacts/HW5Part4_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java" afterPath="$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/java/POJO/Movie.java" afterPath="$PROJECT_DIR$/src/main/resources/java/POJO/Movie.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java" afterPath="$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/AddMovie.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/AddMovie.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/HW4/WEB-INF/classes/POJO/Movie.hbm.xml" afterPath="$PROJECT_DIR$/target/HW4/WEB-INF/classes/POJO/Movie.hbm.xml" />
-      <change beforePath="$PROJECT_DIR$/target/HW4/WEB-INF/classes/java/DAO/MovieDao.java" afterPath="$PROJECT_DIR$/target/HW4/WEB-INF/classes/java/DAO/MovieDao.java" />
-      <change beforePath="$PROJECT_DIR$/target/HW4/WEB-INF/classes/java/POJO/Movie.hbm.xml" afterPath="$PROJECT_DIR$/target/HW4/WEB-INF/classes/java/POJO/Movie.hbm.xml" />
-      <change beforePath="$PROJECT_DIR$/target/HW4/WEB-INF/classes/java/POJO/Movie.java" afterPath="$PROJECT_DIR$/target/HW4/WEB-INF/classes/java/POJO/Movie.java" />
-      <change beforePath="$PROJECT_DIR$/target/HW4/WEB-INF/classes/java/controller/addMovieController.java" afterPath="$PROJECT_DIR$/target/HW4/WEB-INF/classes/java/controller/addMovieController.java" />
-      <change beforePath="$PROJECT_DIR$/target/HW4/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/HW4/WEB-INF/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/target/HW4/WEB-INF/jsp/AddMovie.jsp" afterPath="$PROJECT_DIR$/target/HW4/WEB-INF/jsp/AddMovie.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/POJO/Movie.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/POJO/Movie.hbm.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/DAO/MovieDao.java" afterPath="$PROJECT_DIR$/target/classes/java/DAO/MovieDao.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/POJO/Movie.hbm.xml" afterPath="$PROJECT_DIR$/target/classes/java/POJO/Movie.hbm.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/POJO/Movie.java" afterPath="$PROJECT_DIR$/target/classes/java/POJO/Movie.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/java/controller/addMovieController.java" afterPath="$PROJECT_DIR$/target/classes/java/controller/addMovieController.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../HW5Part4/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_12.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_3_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_0_3_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_3_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/.idea/libraries/Maven__org_springframework_spring_orm_5_0_3_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/.idea/libraries/Maven__org_springframework_spring_tx_5_0_3_RELEASE.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/../HW5Part4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HW5Part4/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/HW5Part4.iml" afterPath="$PROJECT_DIR$/../HW5Part4/HW5Part4.iml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/pom.xml" afterPath="$PROJECT_DIR$/../HW5Part4/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/../HW5Part4/src/main/resources/hibernate.cfg.xml" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/src/main/resources/java/Controller/BookController.java" afterPath="$PROJECT_DIR$/../HW5Part4/src/main/resources/java/Controller/BookController.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/src/main/resources/java/POJO/Books.hbm.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/src/main/resources/java/POJO/Books.java" afterPath="$PROJECT_DIR$/../HW5Part4/src/main/resources/java/POJO/Books.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" afterPath="$PROJECT_DIR$/../HW5Part4/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/target/HW4-Part3/WEB-INF/classes/java/DAO/BookDAO.java" afterPath="$PROJECT_DIR$/../HW5Part4/target/HW4-Part3/WEB-INF/classes/java/DAO/BookDAO.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/target/classes/java/Controller/BookController.java" afterPath="$PROJECT_DIR$/../HW5Part4/target/classes/java/Controller/BookController.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/target/classes/java/DAO/BookDAO.java" afterPath="$PROJECT_DIR$/../HW5Part4/target/classes/java/DAO/BookDAO.java" />
-      <change beforePath="$PROJECT_DIR$/../HW5Part4/target/classes/java/POJO/Book.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -661,12 +620,12 @@
       <workItem from="1521915437750" duration="181000" />
       <workItem from="1521935107447" duration="4125000" />
       <workItem from="1521943822899" duration="96000" />
-      <workItem from="1521944268165" duration="50000" />
+      <workItem from="1521944268165" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47855000" />
+    <option name="totallyTimeSpent" value="47881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="886" y="-3089" width="3864" height="2082" extended-state="0" />

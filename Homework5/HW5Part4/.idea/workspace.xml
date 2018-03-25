@@ -542,7 +542,7 @@
       <workItem from="1521915170598" duration="23000" />
       <workItem from="1521915218549" duration="17000" />
       <workItem from="1521915621743" duration="10000" />
-      <workItem from="1521939241199" duration="3989000" />
+      <workItem from="1521939241199" duration="4004000" />
     </task>
     <task id="LOCAL-00001" summary="HW5 hibernate part update">
       <created>1521944290315</created>
@@ -551,11 +551,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521944290315</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HW5 hibernate part update">
+      <created>1521944307515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1521944307515</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17144000" />
+    <option name="totallyTimeSpent" value="17159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="-3254" width="5788" height="3178" extended-state="6" />

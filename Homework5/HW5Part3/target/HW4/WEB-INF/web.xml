@@ -4,16 +4,12 @@
 
 <web-app>
     <display-name>Archetype Created Web Application</display-name>
-    <listener>
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
-    
     <servlet>
         <servlet-name>dispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>/WEB-INF/dispatcher-servlet.xml</param-value>
+            <param-value>classpath:META-INF/dispatcher-servlet.xml</param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
@@ -25,5 +21,16 @@
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
-    
+
+    <filter>
+        <filter-name>XssSqlFilter</filter-name>
+        <filter-class>Filter.movieFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>XssSqlFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+
 </web-app>

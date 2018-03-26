@@ -7,8 +7,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a9ff1e4-5f91-4eac-8164-968c0349b795" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HW5Part3/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_27.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HW5Part3/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_27.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/java/Filter/ServletRequestWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/java/Filter/SqlInjectInterceptor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/java/Filter/movieFilter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_27.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_27.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Filter/ServletRequestWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Filter/SqlInjectInterceptor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Filter/bookFilter.java" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/.idea/artifacts/HW5Part3_war_exploded.xml" afterPath="$PROJECT_DIR$/../HW5Part3/.idea/artifacts/HW5Part3_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/.idea/dataSources/e2471f57-1223-4d1f-9fbd-b2929a4cba4f.xml" afterPath="$PROJECT_DIR$/../HW5Part3/.idea/dataSources/e2471f57-1223-4d1f-9fbd-b2929a4cba4f.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/.idea/libraries/Maven__org_springframework_spring_web_5_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/../HW5Part3/.idea/libraries/Maven__org_springframework_spring_web_5_0_3_RELEASE.xml" />
       <change beforePath="$PROJECT_DIR$/../HW5Part3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HW5Part3/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/HW5Part3.iml" afterPath="$PROJECT_DIR$/../HW5Part3/HW5Part3.iml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/pom.xml" afterPath="$PROJECT_DIR$/../HW5Part3/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/resources/hibernate.cfg.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/DAO/MainDAO.java" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/java/DAO/MainDAO.java" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/DAO/MovieDao.java" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/java/DAO/MovieDao.java" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/POJO/Movie.hbm.xml" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/resources/META-INF/Movie.hbm.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/POJO/Movie.java" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/java/POJO/Movie.java" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/Validator/movieValidator.java" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/java/Validator/movieValidator.java" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/controller/addMovieController.java" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/java/controller/addMovieController.java" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/controller/redirectController.java" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/java/controller/redirectController.java" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/resources/java/controller/searchMovieController.java" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/java/controller/searchMovieController.java" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/resources/META-INF/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/resources/META-INF/dispatcher-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../HW5Part3/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/applicationContext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/POJO/Movie.hbm.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/hibernate.cfg.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/DAO/MainDAO.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/DAO/MovieDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/POJO/Movie.hbm.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/POJO/Movie.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/controller/addMovieController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/controller/redirectController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/classes/java/controller/searchMovieController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/dispatcher-servlet.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../HW5Part3/target/HW4/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/POJO/Movie.hbm.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/../HW5Part3/target/classes/hibernate.cfg.xml" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MainDAO.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MovieDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/POJO/Movie.hbm.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/POJO/Movie.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/controller/addMovieController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/controller/redirectController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../HW5Part3/target/classes/java/controller/searchMovieController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/HW5Part4_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/HW5Part4_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_4_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_3_RELEASE.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/HW5Part4.iml" afterPath="$PROJECT_DIR$/HW5Part4.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/Controller/BookController.java" afterPath="$PROJECT_DIR$/src/main/java/Controller/BookController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/DAO/BookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BookDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/DAO/MainDAO.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/MainDAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/POJO/Books.java" afterPath="$PROJECT_DIR$/src/main/java/POJO/Books.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/dispatcher-servlet.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/applicationContext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/classes/java/DAO/BookDAO.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/dispatcher-servlet.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java/Controller/BookController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java/DAO/BookDAO.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,97 +107,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="675">
-      <file leaf-file-name="addBook.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBook.jsp">
+      <file leaf-file-name="ServletRequestWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Filter/ServletRequestWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1333">
-              <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="86">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlInjectInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Filter/SqlInjectInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2881">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bookFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Filter/bookFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Books.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Books.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MovieDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1591">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="989">
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="215">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/java/Controller/BookController.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1204">
-              <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1290">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BookDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/BookDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BookDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1634">
-              <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MainDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="174">
+              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -139,8 +194,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1247">
-              <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+            <state relative-caret-position="853">
+              <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/MainDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -179,17 +244,21 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBook.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/java/POJO/Book.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/java/DAO/MainDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/java/DAO/BookDAO.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/java/Controller/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/java/POJO/Books.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/java/movieFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/java/Filter/movieFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Filter/bookFilter.java" />
       </list>
     </option>
   </component>
@@ -213,11 +282,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="886" />
-    <option name="y" value="-3089" />
-    <option name="width" value="3864" />
-    <option name="height" value="2082" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
+    <option name="y" value="-3240" />
+    <option name="width" value="2904" />
+    <option name="height" value="3162" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -237,6 +306,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,14 +333,6 @@
               <item name="HW5Part4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW5Part4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW5Part4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,7 +340,6 @@
               <item name="HW5Part4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -284,7 +348,6 @@
               <item name="HW5Part4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="DAO" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -293,9 +356,31 @@
               <item name="HW5Part4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW5Part4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW5Part4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="POJO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW5Part4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW5Part4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HW5Part4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW5Part4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HW5Part4" type="b2602c69:ProjectViewProjectNode" />
@@ -312,14 +397,19 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HW5Part4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HW5Part4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,21 +419,27 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12159789" />
     <property name="project.structure.side.proportion" value="0.3049926" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW5Part3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="JPA.DatabaseSchemaImportDialog" value="59fb0679-3b20-4450-b231-bae1a9acc662" />
   </component>
   <component name="RecentsManager">
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="POJO" />
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="DAO" />
       <recent name="POJO" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\qiaoz\Documents\GitHub\INFO6250\Homework5\HW5Part4\src\main\resources\META-INF" />
+      <recent name="C:\Users\qiaoz\Documents\GitHub\INFO6250\Homework5\HW5Part4\src\main\resources" />
+      <recent name="C:\Users\qiaoz\Documents\GitHub\INFO6250\Homework5\HW5Part4\src\main" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="POJO" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\qiaoz\Documents\GitHub\INFO6250\Homework5\HW5Part4\src\main\resources\java" />
       <recent name="C:\Users\qiaoz\IdeaProjects\HW4Part3\src\main\webapp\WEB-INF\jsp" />
     </key>
   </component>
@@ -539,7 +635,8 @@
       <workItem from="1521915170598" duration="23000" />
       <workItem from="1521915218549" duration="17000" />
       <workItem from="1521915621743" duration="10000" />
-      <workItem from="1521939241199" duration="4031000" />
+      <workItem from="1521939241199" duration="4049000" />
+      <workItem from="1522025066980" duration="1181000" />
     </task>
     <task id="LOCAL-00001" summary="HW5 hibernate part update">
       <created>1521944290315</created>
@@ -562,14 +659,21 @@
       <option name="project" value="LOCAL" />
       <updated>1521944321542</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW5 hibernate part update">
+      <created>1521944348695</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1521944348695</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17186000" />
+    <option name="totallyTimeSpent" value="18385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="-3254" width="5788" height="3178" extended-state="6" />
+    <frame x="-12" y="-3240" width="2904" height="3162" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -579,7 +683,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11289753" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23018733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -590,12 +694,12 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35714287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34886202" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13409895" sideWeight="0.5155587" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13409895" sideWeight="0.4844413" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27557638" sideWeight="0.2613798" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27557638" sideWeight="0.7386202" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -624,29 +728,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Book.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/Controller/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1333">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -679,7 +760,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
           <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
@@ -687,7 +768,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -703,24 +784,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Book.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/BookDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BookDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/Controller/BookController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1849">
           <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#905#906#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -749,14 +828,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/Controller/BookController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1892">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#905#906#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -769,7 +848,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
           <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
@@ -785,13 +864,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Book.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/BookDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BookDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1892">
           <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -819,14 +896,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/Controller/BookController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1892">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#905#906#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -839,7 +916,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
           <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
@@ -855,13 +932,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Book.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/BookDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BookDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3010">
           <caret line="70" column="9" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="70" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -877,14 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,58 +978,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBook.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1333">
-          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="516">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Books.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Books.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="14" column="46" lean-forward="false" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1247">
-          <caret line="29" column="48" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/Controller/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1204">
+        <state relative-caret-position="2236">
           <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#905#906#0" expanded="false" />
+            <element signature="e#953#954#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MovieDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
@@ -971,33 +1008,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MainDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Books.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Books.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
@@ -1005,10 +1016,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../HW5Part3/target/classes/java/DAO/MovieDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/MainDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1591">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="172">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Filter/SqlInjectInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2881">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="853">
+          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Filter/ServletRequestWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Filter/bookFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>

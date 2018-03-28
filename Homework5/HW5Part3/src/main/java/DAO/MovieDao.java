@@ -31,11 +31,14 @@ public class MovieDao {
         return true;
     }
 
-    public List<Movie> getMoviesBy(String value, String keyword){
+    public List<Movie> getMoviesBy(String values, String keyword){
         session = DAO.MainDAO.getSession();
 
-        String qy = "FROM POJO.Movie as movie WHERE movie."+value+"="+keyword;
-        Query query = session.createQuery(qy);
+        String qy = "FROM POJO.Movie as movie WHERE movie."+values+"="+keyword;
+        //Query query = session.createQuery(qy);
+        Query query = session.createQuery("FROM POJO.Movie as movie WHERE movie."+values+" LIKE :keyword");
+        //query2 = query2.setParameter("values", values);
+        query.setParameter("keyword", "%"+keyword+"%");
         List<Movie> list = query.list();
         session.close();
         return list;

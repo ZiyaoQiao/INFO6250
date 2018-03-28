@@ -33,4 +33,31 @@
         <dispatcher>REQUEST</dispatcher>
     </filter-mapping>
 
+    <error-page>
+        <error-code>403</error-code>
+        <location>/WEB-INF/jsp/Error.jsp</location>
+    </error-page>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Login</web-resource-name>
+            <url-pattern>/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>administrator</role-name>
+        </auth-constraint>
+    </security-constraint>
+    
+    <security-role>
+        <role-name>administrator</role-name>
+    </security-role>
+
+    <login-config>
+        <auth-method>FORM</auth-method>
+        <form-login-config>
+            <form-login-page>/WEB-INF/jsp/login.jsp</form-login-page>
+            <form-error-page>/WEB-INF/jsp/Error.jsp</form-error-page>
+        </form-login-config>
+    </login-config>
+
 </web-app>

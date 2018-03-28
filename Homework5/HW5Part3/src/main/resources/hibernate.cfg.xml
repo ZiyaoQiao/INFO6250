@@ -11,7 +11,7 @@
         <property name="connection.password">86557060</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
         <mapping resource="META-INF/Movie.hbm.xml"/>
-        <mapping class="POJO.Movie"/>
+        <!--<mapping class="POJO.Movie"Movi/>-->
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hbm2ddl.auto">update</property> -->
     </session-factory>

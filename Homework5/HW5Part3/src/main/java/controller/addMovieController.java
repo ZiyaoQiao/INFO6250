@@ -35,8 +35,11 @@ public class addMovieController implements ApplicationContextAware{
     protected ModelAndView show(){
         return new ModelAndView("AddMovie");
     }
+
+
     @RequestMapping("addMovie.html")
     protected ModelAndView onSubmit(HttpServletRequest request, @ModelAttribute("movie") Movie movie, BindingResult result){
+
         validator.validate(movie, result);
         if(result.hasErrors())
             return new ModelAndView("Error");

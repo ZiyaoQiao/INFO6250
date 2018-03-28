@@ -1,5 +1,6 @@
 package POJO;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.Basic;
@@ -10,6 +11,7 @@ import java.util.Objects;
 
 @Entity
 @Component("Books")
+@Scope("prototype")
 public class Books {
     private String isbn;
     private String title;

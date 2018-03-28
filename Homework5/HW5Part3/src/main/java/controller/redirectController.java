@@ -11,8 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 @Controller
 public class redirectController {
     @RequestMapping("index.html")
-    public ModelAndView index() {
-        return new ModelAndView("MovieStore");
+    public ModelAndView index(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) {
+        //if(httpServletRequest.getRemoteUser() != null)
+            return new ModelAndView("MovieStore");
+        //return new ModelAndView("login");
     }
 
     @RequestMapping("selection.html")

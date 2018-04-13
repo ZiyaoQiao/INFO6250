@@ -117,8 +117,9 @@ public class readCSVController implements ApplicationContextAware {
             ps.setString(23, order.getTotalDue());
             ps.setString(24, order.getComment());
             ps.setString(25, order.getModifiedDate());
-            ps.executeUpdate();
+            ps.addBatch();
         }
+        ps.executeBatch();
 
 
         try {

@@ -7,13 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a9ff1e4-5f91-4eac-8164-968c0349b795" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Homework6/HW6Part1/.idea/artifacts/HW6Part1_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Homework6/HW6Part1/.idea/artifacts/HW6Part1_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Homework6/HW6Part1/src/main/java/POJO/Salesorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/Community/community.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/ContentCollection/contentCollection.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/Courses/courses.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/Home/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/MyPage/myPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/Support&amp;Services/support&amp;services.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/Training/training.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/HW4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4/HW4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/src/main/resources/java/DAO/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4/src/main/java/DAO/MovieDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/src/main/resources/java/POJO/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4/src/main/java/POJO/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/src/main/resources/java/Validator/movieValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4/src/main/java/Validator/movieValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/src/main/resources/java/controller/addMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4/src/main/java/controller/addMovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/src/main/resources/java/controller/redirectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4/src/main/java/controller/redirectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/src/main/resources/java/controller/searchMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4/src/main/java/controller/searchMovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/target/classes/java/DAO/MovieDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/target/classes/java/POJO/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/target/classes/java/Validator/movieValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/target/classes/java/controller/addMovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/target/classes/java/controller/redirectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4/target/classes/java/controller/searchMovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4Part3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4Part3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4Part3/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4Part3/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4Part3/target/classes/java/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4Part3/target/classes/java/Controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4Part6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4Part6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4Part6/target/HW4-Part6/WEB-INF/classes/java/Controller/readCSVController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4Part6/target/HW4-Part6/WEB-INF/classes/java/Controller/readCSVController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework4/HW4Part6/target/classes/java/Controller/readCSVController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework4/HW4Part6/target/classes/java/Controller/readCSVController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW5Part3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5Part3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/jsp/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/jsp/addBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/HW4-Part3/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -214,10 +239,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="524" />
-    <option name="y" value="312" />
-    <option name="width" value="2581" />
-    <option name="height" value="1465" />
+    <option name="x" value="522" />
+    <option name="y" value="308" />
+    <option name="width" value="2583" />
+    <option name="height" value="1467" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -227,6 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -329,7 +355,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,7 +362,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Homework6/HW6Part1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Blackboard" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12159789" />
@@ -536,6 +561,8 @@
       <workItem from="1522258945495" duration="117000" />
       <workItem from="1523145333960" duration="1944000" />
       <workItem from="1523152076899" duration="181000" />
+      <workItem from="1523470645053" duration="68000" />
+      <workItem from="1523582271919" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="HW5 hibernate part update">
       <created>1521944290315</created>
@@ -576,7 +603,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24925000" />
+    <option name="totallyTimeSpent" value="25007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
@@ -600,11 +627,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21331196" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21290323" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Persistence" order="3" sideWeight="0.27096775" side_tool="true" visible="true" weight="0.19783524" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7290323" visible="true" weight="0.19783524" />
+      <window_info id="Persistence" order="3" sideWeight="0.2735484" side_tool="true" visible="true" weight="0.20264582" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.72645164" visible="true" weight="0.20264582" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />

@@ -25,6 +25,8 @@ public class BookController implements ApplicationContextAware{
     @RequestMapping("addBookPage.html")
     public ModelAndView responseAddBookPage(HttpServletRequest request, HttpServletResponse response) {
         int num = Integer.parseInt(request.getParameter("num"));
+        if(num < 1)
+            return new ModelAndView("index");
         request.getSession().setAttribute("num",num);
         return new ModelAndView("addBook");
     }

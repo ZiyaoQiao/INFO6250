@@ -7,14 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9041e630-7636-48cd-ac14-919a1ca73965" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../../Homework5/HW5Part3/src/main/webapp/WEB-INF/jsp/login.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../../Homework5/HW5Part3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Homework5/HW5Part3/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../../Homework5/HW5Part3/HW5Part3.iml" afterPath="$PROJECT_DIR$/../../Homework5/HW5Part3/HW5Part3.iml" />
-      <change beforePath="$PROJECT_DIR$/../../Homework5/HW5Part3/src/main/java/controller/addMovieController.java" afterPath="$PROJECT_DIR$/../../Homework5/HW5Part3/src/main/java/controller/addMovieController.java" />
-      <change beforePath="$PROJECT_DIR$/../../Homework5/HW5Part4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Homework5/HW5Part4/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../../Homework5/HW5Part4/HW5Part4.iml" afterPath="$PROJECT_DIR$/../../Homework5/HW5Part4/HW5Part4.iml" />
-      <change beforePath="$PROJECT_DIR$/../../Homework5/HW5Part4/src/main/java/POJO/Books.java" afterPath="$PROJECT_DIR$/../../Homework5/HW5Part4/src/main/java/POJO/Books.java" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/Community/community.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/ContentCollection/contentCollection.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/Courses/courses.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/Home/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/MyPage/myPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/Support&amp;Services/support&amp;services.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/Training/training.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Blackboard/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/MovieDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/POJO/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/POJO/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/Validator/movieValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Validator/movieValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/addMovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/controller/redirectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/redirectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/controller/searchMovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/searchMovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java/DAO/MovieDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java/POJO/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java/Validator/movieValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java/controller/addMovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java/controller/redirectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/java/controller/searchMovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4Part3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4Part3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4Part3/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4Part3/target/HW4-Part3/WEB-INF/classes/java/Controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4Part3/target/classes/java/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4Part3/target/classes/java/Controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4Part6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4Part6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4Part6/target/HW4-Part6/WEB-INF/classes/java/Controller/readCSVController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4Part6/target/HW4-Part6/WEB-INF/classes/java/Controller/readCSVController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW4Part6/target/classes/java/Controller/readCSVController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW4Part6/target/classes/java/Controller/readCSVController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Homework5/HW5Part3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Homework5/HW5Part3/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,10 +53,10 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
           <file leaf-file-name="addMovieController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMovieController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="387">
-                  <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+                <state relative-caret-position="171">
+                  <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -44,18 +67,17 @@
           <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="129">
-                  <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-                  <folding />
+                <state relative-caret-position="57">
+                  <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="searchMovieController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/searchMovieController.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/controller/searchMovieController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="387">
-                  <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                <state relative-caret-position="171">
+                  <caret line="17" selection-start-line="17" selection-end-line="17" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -66,18 +88,17 @@
           <file leaf-file-name="MovieStore.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/MovieStore.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="473">
-                  <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-                  <folding />
+                <state relative-caret-position="209">
+                  <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="movieValidator.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/java/Validator/movieValidator.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Validator/movieValidator.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="645">
-                  <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+                <state relative-caret-position="190">
+                  <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#300#301#0" expanded="true" />
@@ -90,18 +111,17 @@
           <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1161">
-                  <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-                  <folding />
+                <state relative-caret-position="513">
+                  <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="MovieDao.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/DAO/MovieDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1195">
-                  <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+                <state relative-caret-position="1026">
+                  <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <marker date="1519266998120" expanded="true" signature="1093:1112" ph="SELECT * FRO... movies" />
@@ -117,9 +137,8 @@
           <file leaf-file-name="AddMovie.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/AddMovie.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="473">
-                  <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-                  <folding />
+                <state relative-caret-position="323">
+                  <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -127,19 +146,17 @@
           <file leaf-file-name="SearchMovie.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/SearchMovie.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1032">
-                  <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-                  <folding />
+                <state relative-caret-position="456">
+                  <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="Movie.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Movie.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Movie.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-213">
-                  <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-                  <folding />
+                <state relative-caret-position="285">
+                  <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -151,18 +168,17 @@
           <file leaf-file-name="SearchMovie.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/SearchMovie.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="989">
-                  <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-                  <folding />
+                <state relative-caret-position="437">
+                  <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="addMovieController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMovieController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="774">
-                  <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+                <state relative-caret-position="342">
+                  <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -171,11 +187,10 @@
             </entry>
           </file>
           <file leaf-file-name="redirectController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/redirectController.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/controller/redirectController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="688">
-                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="304">
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
                 </state>
               </provider>
             </entry>
@@ -183,9 +198,8 @@
           <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="679">
-                  <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-                  <folding />
+                <state relative-caret-position="188">
+                  <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -205,11 +219,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -257,28 +266,21 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="3872" />
-    <option name="height" value="2192" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="width" value="3875" />
+    <option name="height" value="2196" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,51 +304,7 @@
               <item name="HW4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="DAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="POJO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Validator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HW4" type="b2602c69:ProjectViewProjectNode" />
@@ -376,23 +334,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12159789" />
     <property name="project.structure.side.proportion" value="0.3721275" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Homework5/HW5Part3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\qiaoz\Documents\GitHub\INFO6250\Homework4\HW4\src\main" />
       <recent name="C:\Users\qiaoz\IdeaProjects\HW4\src\main\webapp\WEB-INF" />
     </key>
   </component>
@@ -410,29 +365,12 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -442,24 +380,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -472,15 +399,12 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
@@ -501,7 +425,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="2376" />
       </RunnerSettings>
@@ -556,15 +479,19 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -591,6 +518,8 @@
       <workItem from="1521935318457" duration="434000" />
       <workItem from="1522035821989" duration="13000" />
       <workItem from="1522035856385" duration="89000" />
+      <workItem from="1523468002052" duration="617000" />
+      <workItem from="1523470401123" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="hw5 update">
       <created>1521934972161</created>
@@ -603,43 +532,44 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30125000" />
+    <option name="totallyTimeSpent" value="30757000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="-14" width="3868" height="2098" extended-state="6" />
+    <frame x="-6" y="-6" width="1719" height="932" extended-state="7" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21224256" sideWeight="0.502555" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837528" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2128117" sideWeight="0.49744502" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975066" sideWeight="0.4992224" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21898396" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5033073" side_tool="true" visible="true" weight="0.21161291" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32961783" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32837528" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49669272" weight="0.21161291" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4992224" weight="0.32975066" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22369212" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49969932" weight="0.32903227" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -662,7 +592,7 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/DAO/MovieDao.java</url>
           <line>80</line>
           <properties />
           <option name="timeStamp" value="10" />
@@ -670,21 +600,33 @@
       </breakpoints>
       <option name="time" value="11" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/SearchMovie.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/redirectController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/SearchMovie.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMovieController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -695,14 +637,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
           <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/searchMovieController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/searchMovieController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
-          <caret line="19" column="54" lean-forward="false" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
+          <caret line="19" column="54" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -712,8 +653,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Notification.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -721,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
           <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
           <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,15 +677,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/SearchMovie.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMovieController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -758,14 +695,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/MovieDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2322">
-          <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1519266998120" expanded="true" signature="1093:1112" ph="SELECT * FRO... movies" />
@@ -780,60 +716,46 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/MovieStore.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/AddMovie.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding />
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Notification.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/SearchMovie.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
-          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding />
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/MovieDetail.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="946">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMovieController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
           <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
@@ -846,22 +768,21 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1856">
-          <caret line="64" column="21" lean-forward="false" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-          <folding />
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Movie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
-          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/MovieDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
-          <caret line="36" column="45" lean-forward="false" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1519266998120" expanded="true" signature="1093:1112" ph="SELECT * FRO... movies" />
@@ -873,18 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/logging/SimpleFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-125">
-          <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
+          <caret line="51" column="60" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -898,7 +811,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.0.7.RELEASE/spring-webmvc-3.0.7.RELEASE.jar!/org/springframework/web/servlet/mvc/BaseCommandController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
-          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -906,14 +819,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.0.7.RELEASE/spring-webmvc-3.0.7.RELEASE.jar!/org/springframework/web/servlet/mvc/AbstractFormController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
@@ -934,24 +846,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/MovieDetail.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="42" />
-          <folding />
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="25" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Error.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
-          <caret line="16" column="7" lean-forward="false" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Notification.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -959,59 +868,54 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/addBooks.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="513">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/SearchMovie.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="437">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addBook.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/MovieStore.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="209">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/searchMovieController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/searchMovieController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/redirectController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/redirectController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="304">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-          <folding />
+        <state relative-caret-position="57">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/Validator/movieValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Validator/movieValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="190">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#300#301#0" expanded="true" />
@@ -1022,16 +926,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/AddMovie.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/DAO/MovieDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/MovieDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1195">
-          <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="1026">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1519266998120" expanded="true" signature="1093:1112" ph="SELECT * FRO... movies" />
@@ -1043,18 +946,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/POJO/Movie.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/addMovieController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/controller/addMovieController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="342">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1063,9 +958,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="188">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/POJO/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1123,11 +1024,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|HW4</last-edited>
+          <last-edited>HW4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3721275" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -11,6 +11,18 @@
     <title>Login to Blackboard</title>
 </head>
 <body>
-<div style="float: "
+<div style="display: flex; justify-content: center">
+    <form>
+        <p>Login to Blackboard</p>
+        <div>
+            <input type="text" placeholder="username" required="required" autofocus>
+        </div>
+        <div>
+            <input type="password" placeholder="password" required="required">
+        </div>
+        <br/>
+        <input type="submit" name="Login" value="Login">
+    </form>
+</div>
 </body>
 </html>

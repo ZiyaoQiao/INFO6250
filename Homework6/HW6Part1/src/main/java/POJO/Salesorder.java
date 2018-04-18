@@ -11,7 +11,7 @@ import java.util.Objects;
 
 @Entity
 @Scope("prototype")
-@Component("Sales")
+@Component
 public class Salesorder {
     private String salesOrderId;
     private String revisionNumber;

@@ -26,7 +26,7 @@ public class SalesOrderDAO {
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("org.relique.jdbc.csv.CsvDriver");
-        Connection conn = DriverManager.getConnection("jdbc:relique:csv:" + "C:\\Users\\qiaoz\\Documents\\GitHub\\INFO6250\\Homework6\\HW6Part1\\src\\main\\webapp\\WEB-INF");
+        Connection conn = DriverManager.getConnection("jdbc:relique:csv:" + "C:\\Users\\qiaoz\\Github\\INFO6250\\Homework6\\HW6Part1\\src\\main\\webapp\\WEB-INF");
         return conn;
     }
 

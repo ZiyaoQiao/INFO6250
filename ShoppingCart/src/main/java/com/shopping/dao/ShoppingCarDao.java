@@ -1,9 +1,11 @@
 package com.shopping.dao;
 
+import com.shopping.entity.Evaluation;
 import com.shopping.entity.ShoppingCar;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
@@ -26,26 +28,41 @@ public class ShoppingCarDao{
     }
 
     public void addShoppingCar(ShoppingCar shoppingCar) {
+        Transaction tx = session.beginTransaction();
         session.save(shoppingCar);
+        tx.commit();
     }
 
     public boolean deleteShoppingCar(int userId, int productId) {
+        String hqlSearch = "from ShoppingCar where userId=? and productId=?";
+        org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
+        querySearch.setParameter(0, userId);
+        querySearch.setParameter(1, productId);
+        List<Evaluation> list = querySearch.list();
+        if(list.isEmpty())
+            return true;
+        Transaction tx = session.beginTransaction();
         String hql = "delete ShoppingCar where userId=? and productId=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, userId);
         query.setParameter(1, productId);
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+        return num > 0;
     }
 
 
     public boolean updateShoppingCar(ShoppingCar shoppingCar) {
+        Transaction tx = session.beginTransaction();
         String hql = "update ShoppingCar set productPrice=?,counts=? where userId=? and productId=?";
         Query query = session.createQuery(hql);
         query.setParameter(0,shoppingCar.getProductPrice());
         query.setParameter(1,shoppingCar.getCounts());
         query.setParameter(2,shoppingCar.getUserId());
         query.setParameter(3,shoppingCar.getProductId());
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+        return num > 0;
     }
 
     public List<ShoppingCar> getShoppingCars(int userId) {
@@ -56,16 +73,34 @@ public class ShoppingCarDao{
     }
 
     public boolean deleteShoppingCarByUser(int userId) {
+        String hqlSearch = "from ShoppingCar where userId=?";
+        org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
+        querySearch.setParameter(0, userId);
+        List<Evaluation> list = querySearch.list();
+        if(list.isEmpty())
+            return true;
+        Transaction tx = session.beginTransaction();
         String hql = "delete ShoppingCar where userId=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, userId);
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+        return  num > 0;
     }
 
     public boolean deleteShoppingCarByProduct(int productId) {
+        String hqlSearch = "from ShoppingCar where productId=?";
+        org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
+        querySearch.setParameter(0, productId);
+        List<Evaluation> list = querySearch.list();
+        if(list.isEmpty())
+            return true;
+        Transaction tx = session.beginTransaction();
         String hql = "delete ShoppingCar where productId=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, productId);
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+        return  num > 0;
     }
 }

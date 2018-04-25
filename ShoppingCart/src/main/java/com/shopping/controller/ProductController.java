@@ -43,8 +43,10 @@ public class ProductController {
     //推荐写法
     @RequestMapping(value = "/deleteProduct", method = RequestMethod.POST)
     @ResponseBody
-    public Response deleteProduct(int id) {
-        return productService.deleteProduct(id);
+    public Response deleteProduct(int id, HttpSession session) {
+        Response response = productService.deleteProduct(id);
+        session.setAttribute("allProduct", productService.getAllProduct());
+        return response;
     }
 
     @RequestMapping(value = "/addProduct", method = RequestMethod.POST)
@@ -94,7 +96,7 @@ public class ProductController {
 
     @RequestMapping(value = "/search")
     public String search() {
-        return "search";
+        return "deprecated/search";
     }
 
     @RequestMapping(value = "/searchProduct", method = RequestMethod.POST)

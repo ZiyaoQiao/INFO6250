@@ -15,11 +15,12 @@ public class User {
     private int id;
     private String name;
     private String email;
-    private String nickName;
+//    private String nickName;
     private int role;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GenericGenerator(name = "generator", strategy = "increment") //设置主键自增
+    @GeneratedValue(generator = "generator")
 
     @Column(name="id")
     public int getId() {
@@ -46,16 +47,6 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    @Column(name="nick_name")
-    public String getNickName() {
-        return nickName;
-    }
-
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
     }
 
     @Column(name="role")

@@ -22,7 +22,7 @@
   </head>
   <body>
     <!--导航栏部分-->
-	<jsp:include page="include/header.jsp"/>
+	<jsp:include page="../include/header.jsp"/>
 
 	<!-- 中间内容 -->
 	<div class="container">
@@ -46,7 +46,7 @@
 
 
 	<!-- 尾部 -->
-	<jsp:include page="include/foot.jsp"/>
+	<jsp:include page="../include/foot.jsp"/>
 
   <script type="text/javascript">
 

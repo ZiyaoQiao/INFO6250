@@ -1,9 +1,11 @@
 package com.shopping.dao;
 
+import com.shopping.entity.Evaluation;
 import com.shopping.entity.Product;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
@@ -30,17 +32,30 @@ public class ProductDao {
     }
 
     public void addProduct(Product product) {
+        Transaction tx = session.beginTransaction();
+
         session.save(product);
+        tx.commit();
     }
 
     public boolean deleteProduct(int id) {
+        String hqlSearch = "from Product where id=?";
+        org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
+        querySearch.setParameter(0, id);
+        List<Evaluation> list = querySearch.list();
+        if(list.isEmpty())
+            return true;
+        Transaction tx = session.beginTransaction();
         String hql = "delete Product where id=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, id);
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+        return  num > 0;
     }
 
     public boolean updateProduct(Product product) {
+        Transaction tx = session.beginTransaction();
         String hql = "update Product set name=?,description=?,keyWord=?,price=?,counts=?,type=? where id=?";
         Query query = session.createQuery(hql);
         query.setParameter(0,product.getName());
@@ -50,7 +65,9 @@ public class ProductDao {
         query.setParameter(4,product.getCounts());
         query.setParameter(5,product.getType());
         query.setParameter(6,product.getId());
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+        return num > 0;
     }
 
     public List<Product> getProductsByKeyWord(String searchKeyWord) {

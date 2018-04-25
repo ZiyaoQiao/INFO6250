@@ -23,10 +23,10 @@
     <![endif]-->
   </head>
   <body>
-    <!--导航栏部分-->
+
     <jsp:include page="include/header.jsp"/>
 
-    <!-- 中间内容 -->
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-1 col-md-1"></div>
@@ -82,37 +82,25 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-1 col-md-1 col-lg-1"></div>
-            <div class="col-sm-10 col-md-10 col-lg-10">
-                <hr class="division"/>
-                <table class="table evaluationTable" border="0" id="evaluation">
-                </table>
-                <hr/>
-                <div id="inputArea"></div>
-            </div>
-        </div>
     </div>
 
-    <!-- 尾部 -->
+
     <jsp:include page="include/foot.jsp"/>
   <script type="text/javascript">
-      listEvaluations();
 
       function addToShoppingCar(productId) {
-          judgeIsLogin();
           var productCounts = document.getElementById("productCounts");
           var counts = parseInt(productCounts.innerHTML);
-          var shoppingCar = {};
-          shoppingCar.userId = ${currentUser.id};
-          shoppingCar.productId = productId;
-          shoppingCar.counts = counts;
+          var shoppingDetail = {};
+          shoppingDetail.userId = ${currentUser.id};
+          shoppingDetail.productId = productId;
+          shoppingDetail.counts = counts;
           var addResult = "";
           $.ajax({
               async : false,
               type : 'POST',
               url : '${cp}/addShoppingCar',
-              data : shoppingCar,
+              data : shoppingDetail,
               dataType : 'json',
               success : function(result) {
                   addResult = result.result;
@@ -131,13 +119,6 @@
               );
           }
       }
-
-      function judgeIsLogin() {
-          if("${currentUser.id}" == null || "${currentUser.id}" == undefined || "${currentUser.id}" ==""){
-              window.location.href = "${cp}/login";
-          }
-      }
-
       function subCounts() {
           var productCounts = document.getElementById("productCounts");
           var counts = parseInt(productCounts.innerHTML);
@@ -155,8 +136,7 @@
       }
 
       function buyConfirm(productId) {
-          var address = getUserAddress(${currentUser.id});
-          var phoneNumber = getUserPhoneNumber(${currentUser.id});
+          var userDetail = getUserDetail(${currentUser.id});
           var productCounts = document.getElementById("productCounts");
           var counts = parseInt(productCounts.innerHTML);
           var product = getProductById(productId);
@@ -181,11 +161,11 @@
                   '</tr>'+
                   '<tr>'+
                   '<th>Address: </th>'+
-                  '<td>'+address+'</td>'+
+                  '<td>'+userDetail.address+'</td>'+
                   '</tr>'+
                   '<tr>'+
                   '<th>Contact Number: </th>'+
-                  '<td>'+phoneNumber+'</td>'+
+                  '<td>'+userDetail.phoneNumber+'</td>'+
                   '</tr>'+
                   '</table>'+
                   '<div class="row">'+
@@ -201,12 +181,33 @@
           });
       }
 
+      function getUserDetail(id) {
+          var userDetail = "";
+          var user = {};
+          user.id = id;
+          $.ajax({
+              async : false,
+              type : 'POST',
+              url : '${cp}/getUserDetailById',
+              data : user,
+              dataType : 'json',
+              success : function(result) {
+                  userDetail = result.result;
+              },
+              error : function(result) {
+                  layer.alert('Error');
+              }
+          });
+          userDetail = JSON.parse(userDetail);
+          return userDetail;
+      }
+
       function getProductById(id) {
           var productResult = "";
           var product = {};
           product.id = id;
           $.ajax({
-              async : false, //设置同步
+              async : false,
               type : 'POST',
               url : '${cp}/getProductById',
               data : product,
@@ -215,55 +216,14 @@
                   productResult = result.result;
               },
               error : function(result) {
-                  layer.alert('Search Error');
+                  layer.alert('error');
               }
           });
           productResult = JSON.parse(productResult);
           return productResult;
       }
 
-      function getUserAddress(id) {
-          var address = "";
-          var user = {};
-          user.id = id;
-          $.ajax({
-              async : false, //设置同步
-              type : 'POST',
-              url : '${cp}/getUserAddressAndPhoneNumber',
-              data : user,
-              dataType : 'json',
-              success : function(result) {
-                  address = result.address;
-              },
-              error : function(result) {
-                  layer.alert('Search Error');
-              }
-          });
-          return address;
-      }
-
-      function getUserPhoneNumber(id) {
-          var phoneNumber = "";
-          var user = {};
-          user.id = id;
-          $.ajax({
-              async : false, //设置同步
-              type : 'POST',
-              url : '${cp}/getUserAddressAndPhoneNumber',
-              data : user,
-              dataType : 'json',
-              success : function(result) {
-                  phoneNumber = result.phoneNumber;
-              },
-              error : function(result) {
-                  layer.alert('Search Error');
-              }
-          });
-          return phoneNumber;
-      }
-
       function addToShoppingRecords(productId) {
-          judgeIsLogin();
           var productCounts = document.getElementById("productCounts");
           var counts = parseInt(productCounts.innerHTML);
           var shoppingRecord = {};
@@ -297,123 +257,6 @@
               layer.alert("Out to stock")
           }
       }
-
-      function listEvaluations() {
-          var evaluations = getEvaluations();
-          var evaluationTable = document.getElementById("evaluation");
-          var html = "";
-          for(var i=0;i<evaluations.length;i++){
-              var user = getUserById(evaluations[i].userId);
-              html+='<tr>'+
-                      '<th>'+user.nickName+'</th>'+
-                      '<td>'+evaluations[i].content+'</td>'+
-                      '</tr>';
-          }
-          evaluationTable.innerHTML += html;
-
-          if(getUserProductRecord() == "true"){
-              var inputArea = document.getElementById("inputArea");
-              html= '<div class="col-sm-12 col-md-12 col-lg-12">'+
-                      '<textarea class="form-control" rows="4" id="evaluationText"></textarea>'+
-                      '</div>'+
-                      '<div class="col-sm-12 col-md-12 col-lg-12">'+
-                      '<div class="col-sm-4 col-md-4 col-lg-4"></div>'+
-                      '<button class="btn btn-primary btn-lg evaluationButton col-sm-4 col-md-4 col-lg-4" onclick="addToEvaluation()">Comments</button>'+
-                      '</div>';
-              inputArea.innerHTML +=html;
-          }
-
-      }
-
-      function getUserProductRecord() {
-          var results = "";
-          var product = {};
-          product.userId = ${currentUser.id};
-          product.productId = ${productDetail.id};
-          $.ajax({
-              async : false, //设置同步
-              type : 'POST',
-              url : '${cp}/getUserProductRecord',
-              data : product,
-              dataType : 'json',
-              success : function(result) {
-                  results = result.result;
-              },
-              error : function(result) {
-                  layer.alert('Search Error');
-              }
-          });
-          return results;
-      }
-
-      function getEvaluations() {
-          var evaluations = "";
-          var product = {};
-          product.productId = ${productDetail.id};
-          $.ajax({
-              async : false, //设置同步
-              type : 'POST',
-              url : '${cp}/getShoppingEvaluations',
-              data : product,
-              dataType : 'json',
-              success : function(result) {
-                  evaluations = result.result;
-              },
-              error : function(result) {
-                  layer.alert('Search Error');
-              }
-          });
-          evaluations = eval("("+evaluations+")");
-          return evaluations;
-      }
-
-      function getUserById(id) {
-          var userResult = "";
-          var user = {};
-          user.id = id;
-          $.ajax({
-              async : false, //设置同步
-              type : 'POST',
-              url : '${cp}/getUserById',
-              data : user,
-              dataType : 'json',
-              success : function(result) {
-                  userResult = result.result;
-              },
-              error : function(result) {
-                  layer.alert('Search Error');
-              }
-          });
-          userResult = JSON.parse(userResult);
-          return userResult;
-      }
-
-      function addToEvaluation() {
-          var inputText = document.getElementById("evaluationText").value;
-          var evaluation = {};
-          evaluation.userId = ${currentUser.id};
-          evaluation.productId = ${productDetail.id};
-          evaluation.content = inputText;
-          var addResult = "";
-          $.ajax({
-              async : false,
-              type : 'POST',
-              url : '${cp}/addShoppingEvaluation',
-              data : evaluation,
-              dataType : 'json',
-              success : function(result) {
-                  addResult = result.result;
-              },
-              error : function(result) {
-                  layer.alert('Search User Error');
-              }
-          });
-          if(addResult = "success"){
-              layer.msg("Comment Success",{icon:1});
-              window.location.href = "${cp}/product_detail";
-          }
-      }
-
   </script>
   </body>
 </html>

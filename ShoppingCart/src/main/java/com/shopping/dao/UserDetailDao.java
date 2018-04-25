@@ -1,9 +1,11 @@
 package com.shopping.dao;
 
+import com.shopping.entity.Evaluation;
 import com.shopping.entity.UserDetail;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
@@ -25,26 +27,34 @@ public class UserDetailDao{
     }
 
     public void addUserDetail(UserDetail userDetail) {
+        Transaction tx = session.beginTransaction();
         session.save(userDetail);
+        tx.commit();
     }
 
     public boolean deleteUserDetail(int id) {
+        String hqlSearch = "from UserDetail where id=?";
+        org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
+        querySearch.setParameter(0, id);
+        List<Evaluation> list = querySearch.list();
+        if(list.isEmpty())
+            return true;
+        Transaction tx = session.beginTransaction();
         String hql = "delete UserDetail where id=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, id);
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+        return num > 0;
     }
 
     public boolean updateUserDetail(UserDetail userDetail) {
-        String hql = "update UserDetail set password=?,phoneNumber=?,sex=?,birthday=?,postNumber=?,address=? where id=?";
+        String hql = "update UserDetail set password=?,phoneNumber=?,address=? where id=?";
         Query query = session.createQuery(hql);
         query.setParameter(0,userDetail.getPassword());
         query.setParameter(1,userDetail.getPhoneNumber());
-        query.setParameter(2,userDetail.getSex());
-        query.setParameter(3,userDetail.getBirthday());
-        query.setParameter(4,userDetail.getPostNumber());
-        query.setParameter(5,userDetail.getAddress());
-        query.setParameter(6,userDetail.getId());
+        query.setParameter(2,userDetail.getAddress());
+        query.setParameter(3,userDetail.getId());
         return query.executeUpdate() > 0;
     }
 

@@ -21,16 +21,16 @@
     <![endif]-->
   </head>
   <body>
-    <!--导航栏部分-->
+
     <jsp:include page="include/header.jsp"/>
 
-    <!-- 中间内容 -->
+
     <div class="container-fluid" style="padding-top: 80px;padding-bottom: 80px" >
 
         <h1 class="title center">Log in</h1>
         <br/>
         <div class="col-sm-offset-2 col-md-offest-2">
-            <!-- 表单输入 -->
+
             <div  class="form-horizontal">
                 <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 col-md-2 control-label">Email/Username</label>
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <!--尾部-->
+
     <jsp:include page="include/foot.jsp"/>
 
     <script type="text/javascript">
@@ -81,10 +81,12 @@
 
             if(loginResult == 'success'){
                 layer.msg('Login Success',{icon:1});
+                if(user.role == 1)
+                    window.location.href = "${cp/control}"
                 window.location.href = "${cp}/main";
             }
             else if(loginResult == 'unexist'){
-                layer.msg('Forgot Username？',{icon:2});
+                layer.msg('Forgot Username?',{icon:2});
             }
             else if(loginResult == 'wrong'){
                 layer.msg('Password Error',{icon:2});

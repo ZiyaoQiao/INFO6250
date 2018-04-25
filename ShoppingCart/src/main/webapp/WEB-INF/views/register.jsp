@@ -21,15 +21,14 @@
     <![endif]-->
   </head>
   <body>
-    <!--导航栏部分-->
+
     <jsp:include page="include/header.jsp"/>
 
-    <!-- 中间内容 -->
     <div class="container-fluid">
         <h1 class="title center">Sign up</h1>
         <br/>
         <div class="col-sm-offset-2 col-md-offest-2">
-            <!-- 表单输入 -->
+
             <div  class="form-horizontal">
                 <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 col-md-2 control-label">Username</label>
@@ -44,44 +43,16 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputNickname" class="col-sm-2 col-md-2 control-label">Nickname</label>
-                    <div class="col-sm-6 col-md-6">
-                        <input type="text" class="form-control" id="inputNickname" placeholder="nickname" />
-                    </div>
-                </div>
-                <div class="form-group">
                     <label for="inputPassword" class="col-sm-2 col-md-2 control-label">Password</label>
                     <div class="col-sm-6 col-md-6">
                         <input type="password" class="form-control" id="inputPassword" placeholder="password" />
                     </div>
                 </div>
+
                 <div class="form-group">
                     <label for="inputPhoneNumber" class="col-sm-2 col-md-2 control-label">Phone</label>
                     <div class="col-sm-6 col-md-6">
                         <input type="text" class="form-control" id="inputPhoneNumber" placeholder="+1 xxxxxxxxxx" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="man" class="col-sm-2 col-md-2 control-label">Gender</label>
-                    <div class="col-sm-6 col-md-6">
-                        <label class="radio-inline">
-                            <input type="radio" id="man" value="option1"> Male
-                        </label>
-                        <label class="radio-inline">
-                            <input type="radio" id="woman" value="option2"> Female
-                        </label>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="birthday" class="col-sm-2 col-md-2 control-label">Date of Birth</label>
-                    <div class="col-sm-6 col-md-6">
-                        <input type="text" class="form-control" id="birthday" placeholder="1995-01-01" />
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="postcodes" class="col-sm-2 col-md-2 control-label">Postal Code</label>
-                    <div class="col-sm-6 col-md-6">
-                        <input type="text" class="form-control" id="postcodes" placeholder="00000" />
                     </div>
                 </div>
                 <div class="form-group">
@@ -108,42 +79,13 @@
             var user = {};
             user.userName = document.getElementById("inputUserName").value;
             user.email = document.getElementById("inputEmail").value;
-            user.nickName = document.getElementById("inputNickname").value;
             user.password = document.getElementById("inputPassword").value;
             user.phoneNumber = document.getElementById("inputPhoneNumber").value;
-            user.birthday = document.getElementById("birthday").value;
-            user.postNumber = document.getElementById("postcodes").value;
             user.address = document.getElementById("address").value;
-            user.sex = 0;
-            if(document.getElementById("woman").checked)
-                user.sex = 1;
-            if(user.userName == ''){
-                layer.msg('Username cannot be empty',{icon:2});
-                return;
-            }
-            else if(user.userName.length >= 12){
-                layer.msg('Username cannot exceed 12 characters',{icon:2});
-                return;
-            }
-            if(user.nickName == ''){
-                layer.msg('Nickname cannot be empty',{icon:2});
-                return;
-            }
-            else if(user.nickName.length >= 15){
-                layer.msg('Nickname cannot exceed 15 characters',{icon:2});
-                return;
-            }
-            else if(user.password == ''){
-                layer.msg('Password cannot be empty',{icon:2});
-                return;
-            }
-            else if(user.password.length>= 20){
-                layer.msg('Password cannot exceed 20 characters',{icon:2});
-                return;
-            }
+
             var registerResult = null;
             $.ajax({
-                async : false, //设置同步
+                async : false,
                 type : 'POST',
                 url : '${cp}/doRegister',
                 data : user,
@@ -152,7 +94,7 @@
                     registerResult = result.result;
                 },
                 error : function(result) {
-                    layer.alert('Search User Error');
+                    layer.alert('Error');
                 }
             });
             if(registerResult == 'success'){

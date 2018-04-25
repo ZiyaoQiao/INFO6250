@@ -16,7 +16,7 @@
     <script src="${cp}/js/layer.js" type="text/javascript"></script>
 </head>
 <body>
-<!--导航栏部分-->
+
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -42,54 +42,26 @@
                     </c:if>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                ${currentUser.nickName}
+                                ${currentUser.name}
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a href="${cp}/shopping_car">Shopping Cart</a></li>
-                            <li><a href="${cp}/shopping_record">Order Status</a></li>
+                            <c:if test="${currentUser.role == 0}">
+                                <li><a href="${cp}/shopping_car">Shopping Cart</a></li>
+                                <li><a href="${cp}/shopping_record">Order Status</a></li>
+                            </c:if>
                             <c:if test="${currentUser.role == 1}">
                                 <li><a href="${cp}/shopping_handle">Handle Orders</a></li>
                             </c:if>
                             <li role="separator" class="divider"></li>
-                            <li><a href="${cp}/amend_info">Edit Personal Information</a></li>
                             <li><a href="${cp}/doLogout">Log out</a></li>
                         </ul>
                     </li>
                 </c:if>
             </ul>
 
-            <div class="navbar-form navbar-right">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Database" id="searchKeyWord"/>
-                </div>
-                <button class="btn btn-default" onclick="searchProduct();">Search</button>
-            </div>
         </div>
     </div>
 </nav>
-<script type="text/javascript">
-    function searchProduct() {
-        var search = {};
-        search.searchKeyWord = document.getElementById("searchKeyWord").value;
-        var searchResult = "";
-        $.ajax({
-            async : false,
-            type : 'POST',
-            url : '${cp}/searchPre',
-            data : search,
-            dataType : 'json',
-            success : function(result) {
-                searchResult = result.result;
-            },
-            error : function(result) {
-                layer.alert('Search Error');
-            }
-        });
-        if(searchResult == "success")
-            window.location.href = "${cp}/search";
-    }
-</script>
-
 </body>
 </html>

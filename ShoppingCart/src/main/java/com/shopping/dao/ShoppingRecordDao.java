@@ -1,10 +1,12 @@
 package com.shopping.dao;
 
+import com.shopping.entity.Evaluation;
 import com.shopping.entity.ShoppingCar;
 import com.shopping.entity.ShoppingRecord;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.stereotype.Repository;
 
 import javax.annotation.Resource;
@@ -27,27 +29,41 @@ public class ShoppingRecordDao {
     }
 
     public void addShoppingRecord(ShoppingRecord shoppingRecord) {
+        Transaction tx = session.beginTransaction();
         session.save(shoppingRecord);
+        tx.commit();
     }
 
     public boolean deleteShoppingRecord(int userId, int productId) {
+        String hqlSearch = "from ShoppingRecord where userId=? and productId=?";
+        org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
+        querySearch.setParameter(0, userId);
+        querySearch.setParameter(0, productId);
+        List<Evaluation> list = querySearch.list();
+        if(list.isEmpty())
+            return true;
+        Transaction tx = session.beginTransaction();
         String hql = "delete ShoppingRecord where userId=? and productId=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, userId);
         query.setParameter(1, productId);
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+
+        return num > 0;
     }
 
     public boolean updateShoppingRecord(ShoppingRecord shoppingRecord) {
-        String hql = "update ShoppingReocrd set orderStatus=? where userId=? and productId=? and time=?";
-        String sql = "update shopping_record set order_status="+shoppingRecord.getOrderStatus()+" where user_id="+shoppingRecord.getUserId()+" and product_id="+shoppingRecord.getProductId()+" and time='"+shoppingRecord.getTime()+"'";
-//        Query query = sessionFactory.getCurrentSession().createQuery(hql);
-//        query.setParameter(0,shoppingRecord.getOrderStatus());
-//        query.setParameter(1,shoppingRecord.getUserId());
-//        query.setParameter(2,shoppingRecord.getProductId());
-//        query.setParameter(3,shoppingRecord.getTime());
-        Query query = session.createSQLQuery(sql);
-        return query.executeUpdate() > 0;
+        Transaction tx = session.beginTransaction();
+        String hql = "update ShoppingRecord set orderStatus=? where userId=? and productId=? and time=?";
+        Query query = session.createQuery(hql);
+        query.setParameter(0, shoppingRecord.getOrderStatus());
+        query.setParameter(1, shoppingRecord.getUserId());
+        query.setParameter(2, shoppingRecord.getProductId());
+        query.setParameter(3,shoppingRecord.getTime());
+        int num = query.executeUpdate();
+        tx.commit();
+        return num > 0;
     }
 
     public List<ShoppingRecord> getShoppingRecords(int userId) {
@@ -79,16 +95,34 @@ public class ShoppingRecordDao {
     }
 
     public boolean deleteShoppingRecordByUser(int userId) {
+        String hqlSearch = "from ShoppingRecord where userId=?";
+        org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
+        querySearch.setParameter(0, userId);
+        List<Evaluation> list = querySearch.list();
+        if(list.isEmpty())
+            return true;
+        Transaction tx = session.beginTransaction();
         String hql = "delete ShoppingRecord where userId=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, userId);
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+        return  num > 0;
     }
 
     public boolean deleteShoppingRecordByProductId(int productId) {
+        String hqlSearch = "from ShoppingRecord where productId=?";
+        org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
+        querySearch.setParameter(0, productId);
+        List<Evaluation> list = querySearch.list();
+        if(list.isEmpty())
+            return true;
+        Transaction tx = session.beginTransaction();
         String hql = "delete ShoppingRecord where productId=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, productId);
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+        return  num > 0;
     }
 }

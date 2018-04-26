@@ -5,8 +5,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="_csrf" content="${_csrf.token}"/>
+    <meta name="_csrf_header" content="${_csrf.headerName}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shopping Cart</title>
     <link href="${cp}/css/bootstrap.min.css" rel="stylesheet">
@@ -35,6 +35,7 @@
                 <c:if test="${empty currentUser}">
                     <li><a href="${cp}/register" methods="post">Sign up</a></li>
                     <li><a href="${cp}/login" methods="post">Log in</a></li>
+                    <li><a href="${cp}/admin_login" methods="post">Admin Log in</a></li>
                 </c:if>
                 <c:if test="${not empty currentUser}">
                     <c:if test="${currentUser.role == 1}">

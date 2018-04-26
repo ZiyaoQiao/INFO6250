@@ -79,6 +79,8 @@
 <jsp:include page="include/foot.jsp"/>
 
 <script type="text/javascript">
+    var token = $("meta[name='_csrf']").attr("content");
+    var header = $("meta[name='_csrf_header']").attr("content");
     var loading = layer.load(0);
     updateShoppingRecords();
 
@@ -162,7 +164,7 @@
                     '<td>' + allShoppingRecords[i].productPrice + '</td>' +
                     '<td>' + orderArray[allShoppingRecords[i].orderStatus] + '</td>' +
                     '<td>' +
-                    '<button class="btn btn-primary btn-sm" onclick="sendProducts(' + allShoppingRecords[i].userId + ',' + allShoppingRecords[i].productId + ',\'' + allShoppingRecords[i].time + '\')">发货</button>' +
+                    '<button class="btn btn-primary btn-sm" onclick="sendProducts(' + allShoppingRecords[i].userId + ',' + allShoppingRecords[i].productId + ',\'' + allShoppingRecords[i].time + '\')">Send</button>' +
                     '</td>' +
                     '</tr>';
                 unHandleCounts++;
@@ -255,6 +257,9 @@
             url: '${cp}/getAllShoppingRecords',
             data: nothing,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 shoppingRecordProducts = result.result;
             },
@@ -276,6 +281,9 @@
             url: '${cp}/getProductById',
             data: product,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 productResult = result.result;
             },
@@ -297,6 +305,9 @@
             url: '${cp}/getUserById',
             data: user,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 userResult = result.result;
             },
@@ -318,6 +329,9 @@
             url: '${cp}/getUserAddressAndPhoneNumber',
             data: user,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 address = result.address;
             },
@@ -338,6 +352,9 @@
             url: '${cp}/getUserAddressAndPhoneNumber',
             data: user,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 phoneNumber = result.phoneNumber;
             },
@@ -367,6 +384,9 @@
             url: '${cp}/changeShoppingRecord',
             data: shoppingRecord,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 sendResult = result.result;
             },

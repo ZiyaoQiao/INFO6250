@@ -74,6 +74,8 @@
     <!--尾部-->
     <jsp:include page="include/foot.jsp"/>
     <script type="text/javascript">
+        var token = $("meta[name='_csrf']").attr("content");
+        var header = $("meta[name='_csrf_header']").attr("content");
         function startRegister() {
             var loading = layer.load(0);
             var user = {};
@@ -90,6 +92,9 @@
                 url : '${cp}/doRegister',
                 data : user,
                 dataType : 'json',
+                beforeSend : function(xhr) {
+                    xhr.setRequestHeader(header, token);
+                },
                 success : function(result) {
                     registerResult = result.result;
                 },

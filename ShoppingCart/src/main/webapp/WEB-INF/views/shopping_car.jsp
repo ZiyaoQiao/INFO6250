@@ -51,6 +51,8 @@
 <jsp:include page="include/foot.jsp"/>
 
 <script type="text/javascript">
+    var token = $("meta[name='_csrf']").attr("content");
+    var header = $("meta[name='_csrf_header']").attr("content");
     updateShoppingCars();
 
     function updateShoppingCars() {
@@ -93,6 +95,9 @@
             url: '${cp}/getShoppingCars',
             data: user,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 shoppingCarProducts = result.result;
             },
@@ -135,6 +140,9 @@
             url: '${cp}/getProductById',
             data: product,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 productResult = result.result;
             },
@@ -213,6 +221,9 @@
             url: '${cp}/getUserAddressAndPhoneNumber',
             data: user,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 address = result.address;
             },
@@ -234,6 +245,9 @@
             url: '${cp}/getUserAddressAndPhoneNumber',
             data: user,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 phoneNumber = result.phoneNumber;
             },
@@ -271,6 +285,9 @@
             url: '${cp}/addShoppingRecord',
             data: shoppingRecord,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 buyResult = result.result;
             },
@@ -299,6 +316,9 @@
             url: '${cp}/deleteShoppingCar',
             data: shoppingCar,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 deleteResult = result.result;
             },

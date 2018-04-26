@@ -25,8 +25,10 @@
 <body>
 
 <jsp:include page="include/header.jsp"/>
-<c:if test="${sessionScope.currentUser.role eq 0}">
-    <c:redirect url="/main"/>
+<c:if test="${not empty sessionScope.currentUser}">
+    <c:if test="${sessionScope.currentUser.role eq 0}">
+        <c:redirect url="/main"/>
+    </c:if>
 </c:if>
 
 <div class="container-fluid">
@@ -66,7 +68,7 @@
                         <div class="col-sm-4 col-md-4 pd-5">
                             <div class="boxes">
                                 <div class="big bigimg">
-                                    <img src="${cp}/img/${product.id}.jpg">
+                                    <img src="${cp}/img/tmp.jpg">
                                 </div>
                                 <p class="font-styles center">${product.name}</p>
                                 <p class="pull-left">Price: ${product.price}</p>
@@ -132,15 +134,6 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="productImgUpload" class="col-sm-2 col-md-2 control-label" accept="image/jpg">Item
-                                Photo</label>
-                            <div class="col-sm-6 col-md-6">
-                                <input name="productImgUpload" type="file" id="productImgUpload"/>
-                                <p class="help-block">Upload size should be 280*160</p>
-                            </div>
-                            <%--<button class="btn btn-primary col-sm-2 col-md-2" onclick="fileUpload()">上传图片</button>--%>
-                        </div>
-                        <div class="form-group">
                             <div class="col-sm-offset-2 col-sm-6" id="imgPreSee">
                             </div>
                         </div>
@@ -162,6 +155,9 @@
 
 <jsp:include page="include/foot.jsp"/>
 <script type="text/javascript">
+    var token = $("meta[name='_csrf']").attr("content");
+    var header = $("meta[name='_csrf_header']").attr("content");
+
     function deleteUser(id) {
         var user = {};
         user.id = id;
@@ -171,6 +167,9 @@
             type: 'POST',
             url: '${cp}/deleteUser',
             data: user,
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             dataType: 'json',
             success: function (result) {
                 deleteResult = result;
@@ -193,6 +192,9 @@
             url: '${cp}/deleteProduct',
             data: product,
             dataType: 'json',
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 deleteResult = result;
             },
@@ -220,6 +222,9 @@
             url: '${cp}/addProduct',
             data: product,
             dataType: 'json',
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 addResult = result.result;
             },
@@ -228,45 +233,10 @@
             }
         });
         if (addResult == "success") {
-            fileUpload();
             layer.msg('Add Item Success', {icon: 1, time: 1000});
             layer.close(loadings)
         }
         window.location = "/main";
-    }
-
-    function fileUpload() {
-        var results = "";
-        var name = document.getElementById("productName").value;
-        $.ajaxFileUpload({
-                url: '${cp}/uploadFile?name=' + name,
-                secureuri: false,
-                fileElementId: 'productImgUpload',
-                type: 'POST',
-                dataType: 'text',
-                success: function (result) {
-                    result = result.replace(/<pre.*?>/g, '');
-                    result = result.replace(/<PRE.*?>/g, '');
-                    result = result.replace("<PRE>", '');
-                    result = result.replace("</PRE>", '');
-                    result = result.replace("<pre>", '');
-                    result = result.replace("</pre>", '');
-                    result = JSON.parse(result);
-                    results = result.result;
-                    if (results == "success") {
-                        layer.msg("Photo Upload Success", {icon: 1});
-                        window.location.href = "${cp}/control";
-                    }
-                    else {
-                        layer.msg("Photo Upload Failed", {icon: 0});
-                    }
-
-                },
-                error: function () {
-                    layer.alert("Upload Error");
-                }
-            }
-        );
     }
 </script>
 </body>

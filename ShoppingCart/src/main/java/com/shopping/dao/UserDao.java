@@ -17,16 +17,20 @@ import java.util.List;
 @Repository(value = "userDao")
 public class UserDao{
 
-    private Session session = MainDAO.getSession();
+    private Session session;
 
     public User getUser(int id) {
+        session = MainDAO.getSession();
         String hql = "from User where id=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, id);
-        return (User)query.uniqueResult();
+        User user = (User)query.uniqueResult();
+        session.close();
+        return user;
     }
 
     public User getUser(String nameOrEmail) {
+        session = MainDAO.getSession();
         String hql = "from User where email=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, nameOrEmail);
@@ -35,44 +39,60 @@ public class UserDao{
             query = session.createQuery(hql);
             query.setParameter(0, nameOrEmail);
         }
-        return (User)query.uniqueResult();
+        User user = (User)query.uniqueResult();
+        session.close();
+        return user;
     }
 
     public void addUser(User user) {
+        session = MainDAO.getSession();
         Transaction tx = session.beginTransaction();
         session.save(user);
         tx.commit();
+        session.close();
     }
 
     public boolean deleteUser(int id) {
+        session = MainDAO.getSession();
         String hqlSearch = "from User where id=?";
         org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
         querySearch.setParameter(0, id);
         List<Evaluation> list = querySearch.list();
-        if(list.isEmpty())
+        if(list.isEmpty()) {
+            session.close();
             return true;
+        }
         Transaction tx = session.beginTransaction();
         String hql = "delete User where id=?";
         Query query = session.createQuery(hql);
         query.setParameter(0, id);
         int num = query.executeUpdate();
         tx.commit();
+        session.close();
         return num > 0;
     }
 
     public boolean updateUser(User user) {
+        session = MainDAO.getSession();
+        Transaction tx = session.beginTransaction();
         String hql = "update User set name = ?,email=? where id=?";
         Query query = session.createQuery(hql);
         query.setParameter(0,user.getName());
         query.setParameter(1,user.getEmail());
 //        query.setParameter(2,user.getNickName());
         query.setParameter(2,user.getId());
-        return query.executeUpdate() > 0;
+        int num = query.executeUpdate();
+        tx.commit();
+        session.close();
+        return num > 0;
     }
 
     public List<User> getAllUser() {
+        session = MainDAO.getSession();
         String hql = "from User";
         Query query = session.createQuery(hql);
-        return query.list();
+        List<User> list = query.list();
+        session.close();
+        return list;
     }
 }

@@ -9,6 +9,9 @@ import com.shopping.service.ProductService;
 import com.shopping.service.UserDetailService;
 import com.shopping.service.UserService;
 import com.shopping.utils.Response;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;
 import org.springframework.stereotype.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +19,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -52,6 +57,11 @@ public class UserController {
         return "login";
     }
 
+    @RequestMapping(value = "/admin_login")
+    public String adminLogin() {
+        return "admin_login";
+    }
+
     @RequestMapping(value = "/main")
     public String main(HttpSession session) {
         session.setAttribute("allUser", userService.getAllUser());
@@ -61,6 +71,14 @@ public class UserController {
 
     @RequestMapping(value = "/control")
     public String control(HttpSession session) {
+        User user = new User();
+        user.setName("admin");
+        user.setRole(1);
+        UserDetail userDetail = new UserDetail();
+        session.setAttribute("currentUser", user);
+        session.setAttribute("currentUserDetail", userDetail);
+        session.setAttribute("allUser", userService.getAllUser());
+        session.setAttribute("allProduct", productService.getAllProduct());
         return "control";
     }
 
@@ -74,7 +92,7 @@ public class UserController {
             result = "unexist";
         else {
             UserDetail userDetail = userDetailService.getUserDetail(user.getId());
-            if (userDetail.getPassword().equals(password)) {
+            if (userDetail.getPassword().equals(password) && user.getRole() == 0) {
                 result = "success";
                 httpSession.setAttribute("currentUser", user);
                 httpSession.setAttribute("currentUserDetail", userDetail);
@@ -178,8 +196,12 @@ public class UserController {
     }
 
     @RequestMapping(value = "/doLogout")
-    public String doLogout(HttpSession httpSession) {
-        httpSession.setAttribute("currentUser", "");
+    public String doLogout(HttpSession httpSession, HttpServletRequest request, HttpServletResponse response) {
+        Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+        if (auth != null){
+            new SecurityContextLogoutHandler().logout(request, response, auth);
+        }
+        //httpSession.setAttribute("currentUser", "");
         return "redirect:login";
     }
 
@@ -213,7 +235,7 @@ public class UserController {
         if (sqlPattern.matcher(str).find()) {
             return false;
         }
-        if(str.length() > 15)
+        if (str.length() > 15)
             return false;
         return true;
     }

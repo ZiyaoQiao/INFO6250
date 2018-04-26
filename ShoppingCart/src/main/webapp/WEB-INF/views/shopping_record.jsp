@@ -78,6 +78,8 @@
 
 
 <script type="text/javascript">
+    var token = $("meta[name='_csrf']").attr("content");
+    var header = $("meta[name='_csrf_header']").attr("content");
     var loading = layer.load(0);
     updateShoppingRecords();
 
@@ -246,6 +248,9 @@
             url: '${cp}/getShoppingRecords',
             data: user,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 shoppingRecordProducts = result.result;
             },
@@ -267,6 +272,9 @@
             url: '${cp}/getProductById',
             data: product,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 productResult = result.result;
             },
@@ -288,6 +296,9 @@
             url: '${cp}/getUserAddressAndPhoneNumber',
             data: user,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 address = result.address;
             },
@@ -308,6 +319,9 @@
             url: '${cp}/getUserAddressAndPhoneNumber',
             data: user,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 phoneNumber = result.phoneNumber;
             },
@@ -337,6 +351,9 @@
             url: '${cp}/changeShoppingRecord',
             data: shoppingRecord,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 receiveResult = result.result;
             },
@@ -358,6 +375,9 @@
             url: '${cp}/productDetail',
             data: product,
             dataType: 'json',
+            beforeSend : function(xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 jumpResult = result.result;
             },

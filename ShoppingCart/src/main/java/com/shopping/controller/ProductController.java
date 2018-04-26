@@ -40,7 +40,6 @@ public class ProductController {
         return resultMap;
     }
 
-    //推荐写法
     @RequestMapping(value = "/deleteProduct", method = RequestMethod.POST)
     @ResponseBody
     public Response deleteProduct(int id, HttpSession session) {
@@ -122,29 +121,4 @@ public class ProductController {
         return resultMap;
     }
 
-    @RequestMapping(value = "/uploadFile", method = RequestMethod.POST)
-    @ResponseBody
-    public Map<String, Object> uploadFile(@RequestParam MultipartFile productImgUpload,String name, HttpServletRequest request) {
-        String result = "fail";
-        try{
-            if(productImgUpload != null && !productImgUpload.isEmpty()) {
-                String fileRealPath = request.getSession().getServletContext().getRealPath("/static/img");
-                int id = productService.getProduct(name).getId();
-                String fileName = String.valueOf(id)+".jpg";
-                File fileFolder = new File(fileRealPath);
-                System.out.println("fileRealPath=" + fileRealPath+"/"+fileName);
-                if(!fileFolder.exists()){
-                    fileFolder.mkdirs();
-                }
-                File file = new File(fileFolder,fileName);
-                productImgUpload.transferTo(file);
-                result = "success";
-            }
-        }catch(Exception e){
-            e.printStackTrace();
-        }
-        Map<String,Object> resultMap = new HashMap<String,Object>();
-        resultMap.put("result",result);
-        return resultMap;
-    }
 }

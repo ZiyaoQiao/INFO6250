@@ -21,8 +21,10 @@
     <![endif]-->
 </head>
 <body>
-<c:if test="${sessionScope.currentUser.role eq 1}">
-    <c:redirect url="/control"></c:redirect>
+<c:if test="${not empty sessionScope.currentUser}">
+    <c:if test="${sessionScope.currentUser.role eq 1}">
+        <c:redirect url="/control"></c:redirect>
+    </c:if>
 </c:if>
 <jsp:include page="include/header.jsp"/>
 <div class="container-fluid">
@@ -33,7 +35,7 @@
                     <div class="col-sm-4 col-md-4">
                         <div class="boxes pointer" onclick="productDetail(${product.id})">
                             <div class="big bigimg">
-                                <img src="${cp}/img/${product.id}.jpg">
+                                <img src="${cp}/img/tmp.jpg">
                             </div>
                             <p class="product-name">${product.name}</p>
                             <p class="product-price">${product.price}</p>
@@ -49,6 +51,9 @@
 </div>
 
 <script type="text/javascript">
+    var token = $("meta[name='_csrf']").attr("content");
+    var header = $("meta[name='_csrf_header']").attr("content");
+
     function productDetail(id) {
         var product = {};
         var jumpResult = '';
@@ -59,6 +64,9 @@
             url: '${cp}/productDetail',
             data: product,
             dataType: 'json',
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader(header, token);
+            },
             success: function (result) {
                 jumpResult = result.result;
             },

@@ -5,8 +5,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Shopping Cart</title>
       <link href="${cp}/css/bootstrap.min.css" rel="stylesheet">
@@ -35,13 +33,13 @@
                 <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 col-md-2 control-label">Email/Username</label>
                     <div class="col-sm-6 col-md-6">
-                        <input type="text" class="form-control" id="inputEmail" placeholder="xxxxxx@xx.com"/>
+                        <input type="text" class="form-control" id="inputEmail" name="username" placeholder="xxxxxx@xx.com"/>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword" class="col-sm-2 col-md-2 control-label">Password</label>
                     <div class="col-sm-6 col-md-6">
-                        <input type="password" class="form-control" id="inputPassword" placeholder="password" />
+                        <input type="password" class="form-control" id="inputPassword" name="password" placeholder="password" />
                     </div>
                 </div>
                 <div class="form-group">
@@ -58,6 +56,8 @@
     <jsp:include page="include/foot.jsp"/>
 
     <script type="text/javascript">
+        var token = $("meta[name='_csrf']").attr("content");
+        var header = $("meta[name='_csrf_header']").attr("content");
         function startLogin() {
             var loading = layer.load(0);
             var user = {};
@@ -69,6 +69,9 @@
                 type : 'POST',
                 url : '${cp}/doLogin',
                 data : user,
+                beforeSend : function(xhr) {
+                    xhr.setRequestHeader(header, token);
+                },
                 dataType : 'json',
                 success : function(result) {
                     loginResult = result.result;

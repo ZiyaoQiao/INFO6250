@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col-sm-1 col-md-1"></div>
             <div class="col-sm-5 col-md-5">
-                <img class="detail-img" src="${cp}/img/${productDetail.id}.jpg">
+                <img class="detail-img" src="${cp}/img/tmp.jpg">
             </div>
             <div class="col-sm-5 col-md-5 detail-x">
                 <table class="table table-striped">
@@ -87,6 +87,9 @@
 
     <jsp:include page="include/foot.jsp"/>
   <script type="text/javascript">
+      var token = $("meta[name='_csrf']").attr("content");
+      var header = $("meta[name='_csrf_header']").attr("content");
+
 
       function addToShoppingCar(productId) {
           var productCounts = document.getElementById("productCounts");
@@ -102,6 +105,9 @@
               url : '${cp}/addShoppingCar',
               data : shoppingDetail,
               dataType : 'json',
+              beforeSend : function(xhr) {
+                  xhr.setRequestHeader(header, token);
+              },
               success : function(result) {
                   addResult = result.result;
               },
@@ -191,6 +197,9 @@
               url : '${cp}/getUserDetailById',
               data : user,
               dataType : 'json',
+              beforeSend : function(xhr) {
+                  xhr.setRequestHeader(header, token);
+              },
               success : function(result) {
                   userDetail = result.result;
               },
@@ -212,6 +221,9 @@
               url : '${cp}/getProductById',
               data : product,
               dataType : 'json',
+              beforeSend : function(xhr) {
+                  xhr.setRequestHeader(header, token);
+              },
               success : function(result) {
                   productResult = result.result;
               },
@@ -237,6 +249,9 @@
               url : '${cp}/addShoppingRecord',
               data : shoppingRecord,
               dataType : 'json',
+              beforeSend : function(xhr) {
+                  xhr.setRequestHeader(header, token);
+              },
               success : function(result) {
                   buyResult = result.result;
               },

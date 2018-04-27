@@ -33,32 +33,32 @@
                 <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 col-md-2 control-label">Username</label>
                     <div class="col-sm-6 col-md-6">
-                        <input type="text" class="form-control" id="inputUserName" placeholder="please input"/>
+                        <input type="text" class="form-control" id="inputUserName" placeholder="please input" required="required"/>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 col-md-2 control-label">Email</label>
                     <div class="col-sm-6 col-md-6">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="xxxx@xxxx.com"/>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="xxxx@xxxx.com" required="required"/>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword" class="col-sm-2 col-md-2 control-label">Password</label>
                     <div class="col-sm-6 col-md-6">
-                        <input type="password" class="form-control" id="inputPassword" placeholder="password" />
+                        <input type="password" class="form-control" id="inputPassword" placeholder="password" required="required"/>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="inputPhoneNumber" class="col-sm-2 col-md-2 control-label">Phone</label>
                     <div class="col-sm-6 col-md-6">
-                        <input type="text" class="form-control" id="inputPhoneNumber" placeholder="+1 xxxxxxxxxx" />
+                        <input type="number" class="form-control" id="inputPhoneNumber" placeholder="+1 xxxxxxxxxx" required="required" />
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="address" class="col-sm-2 col-md-2 control-label">Address</label>
                     <div class="col-sm-6 col-md-6">
-                        <input type="text" class="form-control" id="address" placeholder="asdasdasd" />
+                        <input type="text" class="form-control" id="address" placeholder="asdasdasd" required="required"/>
                     </div>
                 </div>
                 <div class="form-group">
@@ -117,7 +117,7 @@
             }
             else if(registerResult == 'fail'){
                 layer.close(loading);
-                layer.msg('Server Error',{icon:2});
+                layer.msg('Error',{icon:2});
             }
         }
     </script>

@@ -11,8 +11,6 @@
         <property name="connection.password">root</property>
         <property name="hbm2ddl.auto">update</property>
 
-
-        <mapping class="com.shopping.entity.Evaluation"/>
         <mapping class="com.shopping.entity.Product"/>
         <mapping class="com.shopping.entity.ShoppingCar"/>
         <mapping class="com.shopping.entity.ShoppingCarPriKey"/>

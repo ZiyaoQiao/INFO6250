@@ -1,20 +1,14 @@
 package com.shopping.dao;
 
-import com.shopping.entity.Evaluation;
-import com.shopping.entity.ShoppingCar;
 import com.shopping.entity.ShoppingRecord;
 import org.hibernate.Query;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * Created by 14437 on 2017/3/3.
- */
+
 @Repository(value = "shoppingRecordDao")
 public class ShoppingRecordDao {
     private Session session;
@@ -45,7 +39,7 @@ public class ShoppingRecordDao {
         org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
         querySearch.setParameter(0, userId);
         querySearch.setParameter(0, productId);
-        List<Evaluation> list = querySearch.list();
+        List<ShoppingRecord> list = querySearch.list();
         if(list.isEmpty()) {
             session.close();
             return true;
@@ -64,12 +58,12 @@ public class ShoppingRecordDao {
     public boolean updateShoppingRecord(ShoppingRecord shoppingRecord) {
         session = MainDAO.getSession();
         Transaction tx = session.beginTransaction();
-        String hql = "update ShoppingRecord set orderStatus=? where userId=? and productId=? and time=?";
+        String hql = "update ShoppingRecord set orderStatus=? where userId=? and productId=? and time=? ";
         Query query = session.createQuery(hql);
         query.setParameter(0, shoppingRecord.getOrderStatus());
         query.setParameter(1, shoppingRecord.getUserId());
         query.setParameter(2, shoppingRecord.getProductId());
-        query.setParameter(3,shoppingRecord.getTime());
+        query.setParameter(3, shoppingRecord.getTime());
         int num = query.executeUpdate();
         tx.commit();
         session.close();
@@ -120,7 +114,7 @@ public class ShoppingRecordDao {
         String hqlSearch = "from ShoppingRecord where userId=?";
         org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
         querySearch.setParameter(0, userId);
-        List<Evaluation> list = querySearch.list();
+        List<ShoppingRecord> list = querySearch.list();
         if(list.isEmpty()) {
             session.close();
             return true;
@@ -140,7 +134,7 @@ public class ShoppingRecordDao {
         String hqlSearch = "from ShoppingRecord where productId=?";
         org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
         querySearch.setParameter(0, productId);
-        List<Evaluation> list = querySearch.list();
+        List<ShoppingRecord> list = querySearch.list();
         if(list.isEmpty()) {
             session.close();
             return true;

@@ -7,16 +7,15 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by 14437 on 2017/3/3.
- */
+
+
 @Service(value = "shoppingRecordService")
 public class ShoppingRecordService{
     @Autowired
     private ShoppingRecordDao shoppingRecordDao;
 
-    public ShoppingRecord getShoppingRecord(int userId, int productId,String time) {
-        return shoppingRecordDao.getShoppingRecord(userId,productId,time);
+    public ShoppingRecord getShoppingRecord(int userId, int productId, String time) {
+        return shoppingRecordDao.getShoppingRecord(userId,productId, time);
     }
 
     public void addShoppingRecord(ShoppingRecord shoppingRecord) {

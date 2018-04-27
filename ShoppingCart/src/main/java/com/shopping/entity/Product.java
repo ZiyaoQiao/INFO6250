@@ -1,25 +1,18 @@
 package com.shopping.entity;
 
-import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 
-/**
- * Created by 14437 on 2017/3/1.
- */
 @Entity
 @Table(name="products")
 public class Product {
     private int id;
     private String name;
     private String description;
-    private String keyWord;
     private int price;
     private int counts;
-    private int type;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO) //设置主键自增
+    @GeneratedValue(strategy = GenerationType.AUTO)
 
     @Column(name="id")
     public int getId() {
@@ -48,15 +41,6 @@ public class Product {
         this.description = description;
     }
 
-    @Column(name="key_word")
-    public String getKeyWord() {
-        return keyWord;
-    }
-
-    public void setKeyWord(String keyWord) {
-        this.keyWord = keyWord;
-    }
-
     @Column(name="price")
     public int getPrice() {
         return price;
@@ -75,12 +59,4 @@ public class Product {
         this.counts = counts;
     }
 
-    @Column(name="type")
-    public int getType() {
-        return type;
-    }
-
-    public void setType(int type) {
-        this.type = type;
-    }
 }

@@ -26,9 +26,6 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.regex.Pattern;
 
-/**
- * Created by 14437 on 2017/3/1.
- */
 @Controller
 public class UserController {
 
@@ -45,11 +42,6 @@ public class UserController {
     @RequestMapping(value = "/register")
     public String register() {
         return "register";
-    }
-
-    @RequestMapping(value = "/amend_info")
-    public String amend_info() {
-        return "deprecated/amend_info";
     }
 
     @RequestMapping(value = "/login")
@@ -85,7 +77,6 @@ public class UserController {
     @RequestMapping(value = "/doLogin", method = RequestMethod.POST)
     @ResponseBody
     public Map<String, Object> doLogin(String userNameOrEmail, String password, HttpSession httpSession) {
-        System.out.println("我接收到了登录请求" + userNameOrEmail + " " + password);
         String result = "fail";
         User user = userService.getUser(userNameOrEmail);
         if (user == null)
@@ -99,7 +90,7 @@ public class UserController {
             } else
                 result = "wrong";
         }
-        Map<String, Object> resultMap = new HashMap<String, Object>();
+        Map<String, Object> resultMap = new HashMap<>();
         resultMap.put("result", result);
         return resultMap;
     }
@@ -130,48 +121,22 @@ public class UserController {
                     userDetail.setPassword(password);
                     userDetail.setPhoneNumber(phoneNumber);
 
-                    Date date = new Date();
-                    SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-                    userDetail.setRegisterTime(sf.format(date));
-
                     userDetailService.addUserDetail(userDetail);
                     result = "success";
                 }
             }
-
-            resultMap.put("result", result);
         }
-        return resultMap;
-    }
-
-    @RequestMapping(value = "/doUpdate", method = RequestMethod.POST)
-    @ResponseBody
-    public Map<String, Object> doUpdate(String userName, String email, String password, String phoneNumber, String address) {
-        String result = "fail";
-        Map<String, Object> resultMap = new HashMap<>();
-        if (isValid(userName) && isValid(email) && isValid(password) && isValid(phoneNumber) && isValid(address)) {
-            User user = userService.getUser(userName);
-            user.setEmail(email);
-            userService.updateUser(user);
-            UserDetail userDetail = userDetailService.getUserDetail(user.getId());
-            userDetail.setAddress(address);
-            userDetail.setPassword(password);
-            userDetail.setPhoneNumber(phoneNumber);
-            userDetailService.updateUserDetail(userDetail);
-            result = "success";
-            resultMap.put("result", result);
-        } else
-            resultMap.put("result", result);
+        resultMap.put("result", result);
         return resultMap;
     }
 
     @RequestMapping(value = "/getAllUser", method = RequestMethod.POST)
     @ResponseBody
     public Map<String, Object> getAllUser() {
-        List<User> userList = new ArrayList<>();
+        List<User> userList;
         userList = userService.getAllUser();
         String allUsers = JSONArray.toJSONString(userList);
-        Map<String, Object> resultMap = new HashMap<String, Object>();
+        Map<String, Object> resultMap = new HashMap<>();
         resultMap.put("allUsers", allUsers);
         return resultMap;
     }
@@ -189,7 +154,7 @@ public class UserController {
     public Map<String, Object> getUserAddressAndPhoneNumber(int id) {
         String address = userDetailService.getUserDetail(id).getAddress();
         String phoneNumber = userDetailService.getUserDetail(id).getPhoneNumber();
-        Map<String, Object> resultMap = new HashMap<String, Object>();
+        Map<String, Object> resultMap = new HashMap<>();
         resultMap.put("address", address);
         resultMap.put("phoneNumber", phoneNumber);
         return resultMap;
@@ -201,7 +166,6 @@ public class UserController {
         if (auth != null){
             new SecurityContextLogoutHandler().logout(request, response, auth);
         }
-        //httpSession.setAttribute("currentUser", "");
         return "redirect:login";
     }
 
@@ -210,7 +174,7 @@ public class UserController {
     public Map<String, Object> getUserById(int id) {
         User user = userService.getUser(id);
         String result = JSON.toJSONString(user);
-        Map<String, Object> resultMap = new HashMap<String, Object>();
+        Map<String, Object> resultMap = new HashMap<>();
         resultMap.put("result", result);
         return resultMap;
     }
@@ -220,7 +184,7 @@ public class UserController {
     public Map<String, Object> getUserDetailById(int id) {
         UserDetail userDetail = userDetailService.getUserDetail(id);
         String result = JSON.toJSONString(userDetail);
-        Map<String, Object> resultMap = new HashMap<String, Object>();
+        Map<String, Object> resultMap = new HashMap<>();
         resultMap.put("result", result);
         return resultMap;
     }

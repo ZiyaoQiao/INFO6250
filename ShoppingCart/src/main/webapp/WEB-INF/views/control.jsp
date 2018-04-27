@@ -63,8 +63,9 @@
                 <hr/>
                 <h1><a name="section2">Item Information</a></h1>
                 <hr/>
-                <c:forEach var="product" items="${sessionScope.allProduct}">
-                    <div class="col-lg-12 col-md-12 col-sm-12" id="productArea">
+                <div class="col-lg-12 col-md-12 col-sm-12" id="productArea">
+                    <c:forEach var="product" items="${sessionScope.allProduct}">
+
                         <div class="col-sm-4 col-md-4 pd-5">
                             <div class="boxes">
                                 <div class="big bigimg">
@@ -81,8 +82,9 @@
                             </div>
 
                         </div>
-                    </div>
-                </c:forEach>
+
+                    </c:forEach>
+                </div>
                 <br/>
             </div>
 
@@ -95,7 +97,8 @@
                         <div class="form-group">
                             <label for="productName" class="col-sm-2 col-md-2 control-label">Item Name</label>
                             <div class="col-sm-6 col-md-6">
-                                <input type="text" class="form-control" id="productName" placeholder="name"/>
+                                <input type="text" class="form-control" id="productName" placeholder="name"
+                                       required="required"/>
                             </div>
                         </div>
                         <div class="form-group">
@@ -103,38 +106,21 @@
                                 Description</label>
                             <div class="col-sm-6 col-md-6">
                                 <textarea type="text" class="form-control" id="productDescribe"
-                                          placeholder="balabalabalabala"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="keyWord" class="col-sm-2 col-md-2 control-label">Keyword</label>
-                            <div class="col-sm-6 col-md-6">
-                                <textarea type="text" class="form-control" id="keyWord"
-                                          placeholder="xxxx;xxxx;xxxx"></textarea>
+                                          placeholder="balabalabalabala" required="required"></textarea>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="productPrice" class="col-sm-2 col-md-2 control-label">Item Price</label>
                             <div class="col-sm-6 col-md-6">
-                                <input type="text" class="form-control" id="productPrice" placeholder="99.99"/>
+                                <input type="number" class="form-control" id="productPrice" placeholder="99.99"
+                                       required="required"/>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="productCount" class="col-sm-2 col-md-2 control-label">Item Quantity</label>
                             <div class="col-sm-6 col-md-6">
-                                <input type="text" class="form-control" id="productCount" placeholder="100"/>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="productType" class="col-sm-2 col-md-2 control-label">Item Class</label>
-                            <div class="col-sm-6 col-md-6">
-                                <select name="productType" class="form-control" id="productType">
-                                    <option value="1">Product</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-sm-offset-2 col-sm-6" id="imgPreSee">
+                                <input type="number" class="form-control" id="productCount" placeholder="100"
+                                       required="required"/>
                             </div>
                         </div>
                         <div class="form-group">
@@ -211,10 +197,8 @@
         var product = {};
         product.name = document.getElementById("productName").value;
         product.description = document.getElementById("productDescribe").value;
-        product.keyWord = document.getElementById("keyWord").value;
         product.price = document.getElementById("productPrice").value;
         product.counts = document.getElementById("productCount").value;
-        product.type = document.getElementById("productType").value;
         var addResult = "";
         $.ajax({
             async: false,

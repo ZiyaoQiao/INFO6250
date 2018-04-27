@@ -1,19 +1,14 @@
 package com.shopping.dao;
 
-import com.shopping.entity.Evaluation;
 import com.shopping.entity.User;
 import org.hibernate.Query;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.Resource;
 import java.util.List;
 
-/**
- * Created by 14437 on 2017/3/1.
- */
+
 @Repository(value = "userDao")
 public class UserDao{
 
@@ -57,7 +52,7 @@ public class UserDao{
         String hqlSearch = "from User where id=?";
         org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
         querySearch.setParameter(0, id);
-        List<Evaluation> list = querySearch.list();
+        List<User> list = querySearch.list();
         if(list.isEmpty()) {
             session.close();
             return true;
@@ -72,20 +67,6 @@ public class UserDao{
         return num > 0;
     }
 
-    public boolean updateUser(User user) {
-        session = MainDAO.getSession();
-        Transaction tx = session.beginTransaction();
-        String hql = "update User set name = ?,email=? where id=?";
-        Query query = session.createQuery(hql);
-        query.setParameter(0,user.getName());
-        query.setParameter(1,user.getEmail());
-//        query.setParameter(2,user.getNickName());
-        query.setParameter(2,user.getId());
-        int num = query.executeUpdate();
-        tx.commit();
-        session.close();
-        return num > 0;
-    }
 
     public List<User> getAllUser() {
         session = MainDAO.getSession();

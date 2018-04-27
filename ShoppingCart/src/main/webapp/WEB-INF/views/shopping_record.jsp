@@ -22,52 +22,69 @@
 </head>
 <body>
 <jsp:include page="include/header.jsp"/>
-
+<c:if test="${empty sessionScope.currentUser}">
+    <c:redirect url="/main"/>
+</c:if>
 
 <div class="container-fluid bigHead">
     <div class="row">
         <div class="col-sm-10  col-md-10 col-sm-offset-1 col-md-offset-1">
-            <div class="jumbotron">
-                <h1>Welcome to Order List</h1>
-                <p>Your Order List</p>
+            <div>
+                <h1>Welcome to Order Status</h1>
+                <br/>
+                <br/>
             </div>
         </div>
+
         <div class="col-sm-10  col-md-10 col-sm-offset-1 col-md-offset-1">
             <div class="row">
-                <ul class="nav nav-tabs list-group-diy" role="tablist">
-                    <li role="presentation" class="active list-group-item-diy"><a href="#unHandle"
-                                                                                  aria-controls="unHandle" role="tab"
-                                                                                  data-toggle="tab">Pending&nbsp;<span
-                            class="badge" id="unHandleCount">0</span></a></li>
-                    <li role="presentation" class="list-group-item-diy"><a href="#transport" aria-controls="transport"
-                                                                           role="tab"
-                                                                           data-toggle="tab">Transport&nbsp;<span
-                            class="badge" id="transportCount">0</span></a></li>
-                    <li role="presentation" class="list-group-item-diy"><a href="#receive" aria-controls="receive"
-                                                                           role="tab"
-                                                                           data-toggle="tab">Received&nbsp;<span
-                            class="badge" id="receiveCount">0</span></a></li>
-                    <li role="presentation" class="list-group-item-diy"><a href="#all" aria-controls="all" role="tab"
-                                                                           data-toggle="tab">All&nbsp;<span
-                            class="badge" id="allCount">0</span></a></li>
-                </ul>
+                <div>
+                    <a aria-controls="unHandle">Pending&nbsp;
+                        <span class="badge" id="unHandleCount">0</span>
+                    </a>
+                    <div class="table table-hover center">
+                        <div role="tabpanel" class="tab-pane active" id="unHandle">
+                            <table class="table table-hover center" id="unHandleTable">
+                            </table>
+                        </div>
+                    </div>
+                </div>
 
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="unHandle">
-                        <table class="table table-hover center" id="unHandleTable">
-                        </table>
+                <br/>
+
+                <div>
+                    <a ria-controls="transport">Transporting&nbsp;
+                        <span class="badge" id="transportCount">0</span>
+                    </a>
+                    <div class="table table-hover center">
+                        <div role="tabpanel" class="tab-pane" id="transport">
+                            <table class="table table-hover center" id="transportTable">
+                            </table>
+                        </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="transport">
-                        <table class="table table-hover center" id="transportTable">
-                        </table>
+                </div>
+                <br/>
+                <div>
+                    <a aria-controls="receive">Received&nbsp;
+                        <span class="badge" id="receiveCount">0</span>
+                    </a>
+                    <div class="table table-hover center">
+                        <div role="tabpanel" class="tab-pane" id="receive">
+                            <table class="table table-hover center" id="receiveTable">
+                            </table>
+                        </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="receive">
-                        <table class="table table-hover center" id="receiveTable">
-                        </table>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="all">
-                        <table class="table table-hover center" id="allTable">
-                        </table>
+                </div>
+                <br/>
+                <div>
+                    <a aria-controls="all">All Orders&nbsp;
+                        <span class="badge" id="allCount">0</span>
+                    </a>
+                    <div class="table table-hover center">
+                        <div role="tabpanel" class="tab-pane" id="all">
+                            <table class="table table-hover center" id="allTable">
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -169,7 +186,7 @@
                     '<td>' + phoneNumber + '</td>' +
                     '<td>' + orderArray[allShoppingRecords[i].orderStatus] + '</td>' +
                     '<td>' +
-                    '<button class="btn btn-primary btn-sm" onclick="receiveProducts(' + allShoppingRecords[i].userId + ',' + allShoppingRecords[i].productId + ',\'' + allShoppingRecords[i].time + '\')">Confirm to Receive</button>' +
+                    '<button class="btn btn-primary btn-sm" onclick="receiveProducts('+allShoppingRecords[i].userId+','+allShoppingRecords[i].productId+',\''+allShoppingRecords[i].time+'\')">Confirm to Receive</button>'+
                     '</td>' +
                     '</tr>';
                 transportCounts++;
@@ -248,7 +265,7 @@
             url: '${cp}/getShoppingRecords',
             data: user,
             dataType: 'json',
-            beforeSend : function(xhr) {
+            beforeSend: function (xhr) {
                 xhr.setRequestHeader(header, token);
             },
             success: function (result) {
@@ -272,7 +289,7 @@
             url: '${cp}/getProductById',
             data: product,
             dataType: 'json',
-            beforeSend : function(xhr) {
+            beforeSend: function (xhr) {
                 xhr.setRequestHeader(header, token);
             },
             success: function (result) {
@@ -296,7 +313,7 @@
             url: '${cp}/getUserAddressAndPhoneNumber',
             data: user,
             dataType: 'json',
-            beforeSend : function(xhr) {
+            beforeSend: function (xhr) {
                 xhr.setRequestHeader(header, token);
             },
             success: function (result) {
@@ -319,7 +336,7 @@
             url: '${cp}/getUserAddressAndPhoneNumber',
             data: user,
             dataType: 'json',
-            beforeSend : function(xhr) {
+            beforeSend: function (xhr) {
                 xhr.setRequestHeader(header, token);
             },
             success: function (result) {
@@ -343,15 +360,15 @@
         var shoppingRecord = {};
         shoppingRecord.userId = userId;
         shoppingRecord.productId = productId;
-        shoppingRecord.time = time;
         shoppingRecord.orderStatus = 2;
+        shoppingRecord.time = time;
         $.ajax({
             async: false,
             type: 'POST',
             url: '${cp}/changeShoppingRecord',
             data: shoppingRecord,
             dataType: 'json',
-            beforeSend : function(xhr) {
+            beforeSend: function (xhr) {
                 xhr.setRequestHeader(header, token);
             },
             success: function (result) {
@@ -375,7 +392,7 @@
             url: '${cp}/productDetail',
             data: product,
             dataType: 'json',
-            beforeSend : function(xhr) {
+            beforeSend: function (xhr) {
                 xhr.setRequestHeader(header, token);
             },
             success: function (result) {

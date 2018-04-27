@@ -7,9 +7,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by 14437 on 2017/3/1.
- */
+
+
 @Service(value = "userDetailService")
 public class UserDetailService{
 
@@ -26,10 +25,6 @@ public class UserDetailService{
 
     public boolean deleteUserDetail(int id) {
         return userDetailDao.deleteUserDetail(id);
-    }
-
-    public boolean updateUserDetail(UserDetail userDetail) {
-        return userDetailDao.updateUserDetail(userDetail);
     }
 
     public List<UserDetail> getAllUserDetail() {

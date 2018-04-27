@@ -2,9 +2,7 @@ package com.shopping.entity;
 
 import java.io.Serializable;
 
-/**
- * Created by 14437 on 2017/3/3.
- */
+
 public class ShoppingRecordPriKey implements Serializable {
     private int userId;
     private int productId;
@@ -44,7 +42,6 @@ public class ShoppingRecordPriKey implements Serializable {
         if (getUserId() != that.getUserId()) return false;
         if (getProductId() != that.getProductId()) return false;
         return getTime().equals(that.getTime());
-
     }
 
     @Override

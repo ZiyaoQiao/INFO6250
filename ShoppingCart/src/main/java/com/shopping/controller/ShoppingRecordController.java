@@ -17,9 +17,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by 14437 on 2017/3/3.
- */
 @Controller
 public class ShoppingRecordController {
     @Resource
@@ -40,7 +37,6 @@ public class ShoppingRecordController {
     @RequestMapping(value = "/addShoppingRecord",method = RequestMethod.POST)
     @ResponseBody
     public Map<String,Object> addShoppingRecord(int userId,int productId,int counts){
-        System.out.println("我添加了"+userId+" "+productId);
         String result = null;
         Product product = productService.getProduct(productId);
         if(counts<=product.getCounts()) {
@@ -53,6 +49,7 @@ public class ShoppingRecordController {
             Date date = new Date();
             SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
             shoppingRecord.setTime(sf.format(date));
+
             product.setCounts(product.getCounts()-counts);
             productService.updateProduct(product);
             shoppingRecordService.addShoppingRecord(shoppingRecord);
@@ -61,23 +58,19 @@ public class ShoppingRecordController {
         else{
             result = "unEnough";
         }
-        Map<String,Object> resultMap = new HashMap<String,Object>();
+        Map<String,Object> resultMap = new HashMap<>();
         resultMap.put("result",result);
         return resultMap;
     }
 
     @RequestMapping(value = "/changeShoppingRecord",method = RequestMethod.POST)
     @ResponseBody
-    public Map<String,Object> changeShoppingRecord(int userId,int productId,String time,int orderStatus){
-        System.out.println("我接收了"+userId+" "+productId+" "+time+" "+orderStatus);
+    public Map<String,Object> changeShoppingRecord(int userId,int productId,String time, int orderStatus){
         ShoppingRecord shoppingRecord = shoppingRecordService.getShoppingRecord(userId,productId,time);
-        System.out.println("我获取到了了"+shoppingRecord.getTime());
         shoppingRecord.setOrderStatus(orderStatus);
         shoppingRecordService.updateShoppingRecord(shoppingRecord);
-
-        Map<String,Object> resultMap = new HashMap<String,Object>();
+        Map<String,Object> resultMap = new HashMap<>();
         resultMap.put("result","success");
-        System.out.println("我成功fanhui了");
         return resultMap;
     }
 
@@ -86,7 +79,7 @@ public class ShoppingRecordController {
     public Map<String,Object> getShoppingRecords(int userId){
         List<ShoppingRecord> shoppingRecordList = shoppingRecordService.getShoppingRecords(userId);
         String shoppingRecords = JSONArray.toJSONString(shoppingRecordList);
-        Map<String,Object> resultMap = new HashMap<String,Object>();
+        Map<String,Object> resultMap = new HashMap<>();
         resultMap.put("result",shoppingRecords);
         return resultMap;
     }
@@ -96,7 +89,7 @@ public class ShoppingRecordController {
     public Map<String,Object> getShoppingRecordsByOrderStatus(int orderStatus){
         List<ShoppingRecord> shoppingRecordList = shoppingRecordService.getShoppingRecordsByOrderStatus(orderStatus);
         String shoppingRecords = JSONArray.toJSONString(shoppingRecordList);
-        Map<String,Object> resultMap = new HashMap<String,Object>();
+        Map<String,Object> resultMap = new HashMap<>();
         resultMap.put("result",shoppingRecords);
         return resultMap;
     }
@@ -104,12 +97,10 @@ public class ShoppingRecordController {
     @RequestMapping(value = "/getAllShoppingRecords",method = RequestMethod.POST)
     @ResponseBody
     public Map<String,Object> getAllShoppingRecords(){
-//        System.out.println("wo在这里i");
         List<ShoppingRecord> shoppingRecordList = shoppingRecordService.getAllShoppingRecords();
         String shoppingRecords = JSONArray.toJSONString(shoppingRecordList);
-        Map<String,Object> resultMap = new HashMap<String,Object>();
+        Map<String,Object> resultMap = new HashMap<>();
         resultMap.put("result",shoppingRecords);
-//        System.out.println("我反悔了"+shoppingRecords);
         return resultMap;
     }
 
@@ -120,7 +111,7 @@ public class ShoppingRecordController {
         if(shoppingRecordService.getUserProductRecord(userId,productId)){
             result = "true";
         }
-        Map<String,Object> resultMap = new HashMap<String,Object>();
+        Map<String,Object> resultMap = new HashMap<>();
         resultMap.put("result",result);
         return resultMap;
     }

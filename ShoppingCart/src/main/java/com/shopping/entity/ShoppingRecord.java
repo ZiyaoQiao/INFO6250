@@ -2,19 +2,17 @@ package com.shopping.entity;
 
 import javax.persistence.*;
 
-/**
- * Created by 14437 on 2017/3/3.
- */
+
 @Entity
 @Table(name="shopping_record")
 @IdClass(value=ShoppingRecordPriKey.class)
 public class ShoppingRecord {
     private int userId;
     private int productId;
-    private String time;
     private int orderStatus;
     private int productPrice;
     private int counts;
+    private String time;
 
     @Id
     @Column(name="user_id")

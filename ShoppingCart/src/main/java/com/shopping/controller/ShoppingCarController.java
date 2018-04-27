@@ -14,9 +14,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by 14437 on 2017/3/3.
- */
 @Controller
 public class ShoppingCarController {
     @Resource
@@ -32,7 +29,6 @@ public class ShoppingCarController {
     @RequestMapping(value = "/addShoppingCar", method = RequestMethod.POST)
     @ResponseBody
     public Map<String, Object> addShoppingCar(int userId, int productId, int counts) {
-        System.out.println("数量为" + counts);
         ShoppingCar shoppingCar = shoppingCarService.getShoppingCar(userId, productId);
         if (shoppingCar == null) {
             ShoppingCar shoppingCar1 = new ShoppingCar();
@@ -46,9 +42,8 @@ public class ShoppingCarController {
             shoppingCar.setProductPrice(productService.getProduct(productId).getPrice() * shoppingCar.getCounts());
             shoppingCarService.updateShoppingCar(shoppingCar);
         }
-        Map<String, Object> resultMap = new HashMap<String, Object>();
+        Map<String, Object> resultMap = new HashMap<>();
         resultMap.put("result", "success");
-        System.out.println("我返回了");
         return resultMap;
     }
 
@@ -57,7 +52,7 @@ public class ShoppingCarController {
     public Map<String, Object> getShoppingCars(int userId) {
         List<ShoppingCar> shoppingCarList = shoppingCarService.getShoppingCars(userId);
         String shoppingCars = JSONArray.toJSONString(shoppingCarList);
-        Map<String, Object> resultMap = new HashMap<String, Object>();
+        Map<String, Object> resultMap = new HashMap<>();
         resultMap.put("result", shoppingCars);
         return resultMap;
     }
@@ -66,9 +61,8 @@ public class ShoppingCarController {
     @ResponseBody
     public Map<String, Object> deleteShoppingCar(int userId, int productId) {
         shoppingCarService.deleteShoppingCar(userId, productId);
-        Map<String, Object> resultMap = new HashMap<String, Object>();
+        Map<String, Object> resultMap = new HashMap<>();
         resultMap.put("result", "success");
-        System.out.println("我返回了");
         return resultMap;
     }
 }

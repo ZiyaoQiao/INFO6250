@@ -23,14 +23,17 @@
 <body>
 
 <jsp:include page="include/header.jsp"/>
-
+<c:if test="${empty sessionScope.currentUser}">
+    <c:redirect url="/main"/>
+</c:if>
 
 <div class="container-fluid bigHead">
     <div class="row">
         <div class="col-sm-10  col-md-10 col-sm-offset-1 col-md-offset-1">
-            <div class="jumbotron">
+            <div>
                 <h1>Welcome to the cart</h1>
-                <p>Below is your shopping cart</p>
+                <br/>
+                <br/>
             </div>
         </div>
         <div class="col-sm-10  col-md-10 col-sm-offset-1 col-md-offset-1">

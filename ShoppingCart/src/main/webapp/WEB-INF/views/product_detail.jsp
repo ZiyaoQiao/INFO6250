@@ -55,10 +55,6 @@
                         <td>${productDetail.description}</td>
                     </tr>
                     <tr>
-                        <th>Item Class</th>
-                        <td>${productDetail.type}</td>
-                    </tr>
-                    <tr>
                         <th>Item Remaining</th>
                         <td>${productDetail.counts}</td>
                     </tr>

@@ -1,14 +1,10 @@
 package com.shopping.dao;
 
-import com.shopping.entity.Evaluation;
 import com.shopping.entity.Product;
-import org.hibernate.Query;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
+import org.hibernate.*;
+import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 
@@ -19,20 +15,19 @@ public class ProductDao {
 
     public Product getProduct(int id) {
         session = MainDAO.getSession();
-        String hql = "from Product where id=?";
-        Query query = session.createQuery(hql);
-        query.setParameter(0, id);
-        Product product = (Product)query.uniqueResult();
+        Criteria criteria = session.createCriteria(Product.class);
+        criteria.add(Restrictions.eq("id",id));
+
+        Product product = (Product)criteria.uniqueResult();
         session.close();
         return product;
     }
 
     public Product getProduct(String name) {
         session = MainDAO.getSession();
-        String hql = "from Product where name=?";
-        Query query = session.createQuery(hql);
-        query.setParameter(0,name);
-        Product product = (Product) query.uniqueResult();
+        Criteria criteria = session.createCriteria(Product.class);
+        criteria.add(Restrictions.eq("name",name));
+        Product product = (Product) criteria.uniqueResult();
         session.close();
         return product;
     }
@@ -50,7 +45,7 @@ public class ProductDao {
         String hqlSearch = "from Product where id=?";
         org.hibernate.query.Query querySearch = session.createQuery(hqlSearch);
         querySearch.setParameter(0, id);
-        List<Evaluation> list = querySearch.list();
+        List<Product> list = querySearch.list();
         if(list.isEmpty()) {
             session.close();
             return true;
@@ -64,51 +59,21 @@ public class ProductDao {
         session.close();
         return  num > 0;
     }
-
     public boolean updateProduct(Product product) {
         session = MainDAO.getSession();
         Transaction tx = session.beginTransaction();
-        String hql = "update Product set name=?,description=?,keyWord=?,price=?,counts=?,type=? where id=?";
+        String hql = "update Product set name=?,description=?,price=?,counts=? where id=?";
         Query query = session.createQuery(hql);
         query.setParameter(0,product.getName());
         query.setParameter(1,product.getDescription());
-        query.setParameter(2,product.getKeyWord());
-        query.setParameter(3,product.getPrice());
-        query.setParameter(4,product.getCounts());
-        query.setParameter(5,product.getType());
-        query.setParameter(6,product.getId());
+        query.setParameter(2,product.getPrice());
+        query.setParameter(3,product.getCounts());
+        query.setParameter(4,product.getId());
         int num = query.executeUpdate();
         tx.commit();
         session.close();
         return num > 0;
     }
-
-    public List<Product> getProductsByKeyWord(String searchKeyWord) {
-        String queryKeyWord = "%";
-        for(int i=0;i<searchKeyWord.length();i++){
-            queryKeyWord += String.valueOf(searchKeyWord.charAt(i)) +"%";
-        }
-        System.out.println("我搜索了"+queryKeyWord);
-        String hql = "from Product where name like ? or key_word like ?";
-        session = MainDAO.getSession();
-        Query query = session.createQuery(hql);
-        query.setParameter(0,queryKeyWord);
-        query.setParameter(1,queryKeyWord);
-        List<Product> list = query.list();
-        session.close();
-        return list;
-    }
-
-    public List<Product> getProductsByType(int type) {
-        session = MainDAO.getSession();
-        String hql = "from Product where type=?";
-        Query query = session.createQuery(hql);
-        query.setParameter(0,type);
-        List<Product> list = query.list();
-        session.close();
-        return list;
-    }
-
 
     public List<Product> getAllProduct() {
         String hql = "from Product";
